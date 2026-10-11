@@ -1,0 +1,3150 @@
+{
+  "oracle_truth": [
+    [
+      2,
+      false
+    ],
+    [
+      3,
+      false
+    ],
+    [
+      4,
+      true
+    ],
+    [
+      5,
+      true
+    ],
+    [
+      6,
+      true
+    ],
+    [
+      7,
+      false
+    ],
+    [
+      8,
+      false
+    ]
+  ],
+  "configs": [
+    {
+      "tp": 2,
+      "fp": 2,
+      "fn": 1,
+      "tn": 2,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285715,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 5,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "token_entropy (raw, q=0.20/0.80)",
+      "mu0": 0.07816987956563631,
+      "mu1": 0.1716707307845354,
+      "mean_n": 21.571428571428573,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "BIRTH",
+        "5": "SKIP",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "SKIP"
+      },
+      "q_lo": 0.2,
+      "q_hi": 0.8
+    },
+    {
+      "tp": 3,
+      "fp": 4,
+      "fn": 0,
+      "tn": 0,
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "f1": 0.6,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 4,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "token_entropy (z-domain, q=0.20/0.80)",
+      "mu0": -1.00409997156426,
+      "mu1": 0.9498429200303853,
+      "mean_n": 24.571428571428573,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "BIRTH",
+        "4": "BIRTH",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.2,
+      "q_hi": 0.8
+    },
+    {
+      "tp": 2,
+      "fp": 2,
+      "fn": 1,
+      "tn": 2,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285715,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 5,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "token_entropy (raw, q=0.30/0.70)",
+      "mu0": 0.09597591335574786,
+      "mu1": 0.15607038736343382,
+      "mean_n": 21.857142857142858,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "BIRTH",
+        "5": "SKIP",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "SKIP"
+      },
+      "q_lo": 0.3,
+      "q_hi": 0.7
+    },
+    {
+      "tp": 3,
+      "fp": 4,
+      "fn": 0,
+      "tn": 0,
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "f1": 0.6,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 4,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "token_entropy (z-domain, q=0.30/0.70)",
+      "mu0": -0.6927767953949784,
+      "mu1": 0.6142726304299343,
+      "mean_n": 24.571428571428573,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "BIRTH",
+        "4": "BIRTH",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.3,
+      "q_hi": 0.7
+    },
+    {
+      "tp": 2,
+      "fp": 2,
+      "fn": 1,
+      "tn": 2,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285715,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 5,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "token_entropy (raw, q=0.35/0.65)",
+      "mu0": 0.10647989908854166,
+      "mu1": 0.1493696413934231,
+      "mean_n": 22.857142857142858,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "BIRTH",
+        "5": "SKIP",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "SKIP"
+      },
+      "q_lo": 0.35,
+      "q_hi": 0.65
+    },
+    {
+      "tp": 3,
+      "fp": 4,
+      "fn": 0,
+      "tn": 0,
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "f1": 0.6,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 4,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "token_entropy (z-domain, q=0.35/0.65)",
+      "mu0": -0.5550910600692442,
+      "mu1": 0.47305028014760386,
+      "mean_n": 24.571428571428573,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "BIRTH",
+        "4": "BIRTH",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.35,
+      "q_hi": 0.65
+    },
+    {
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "tn": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "token_entropy (raw, q=0.40/0.60)",
+      "mu0": 0.11394912960628668,
+      "mu1": 0.1433826101322969,
+      "mean_n": 23.142857142857142,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "SKIP",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "SKIP"
+      },
+      "q_lo": 0.4,
+      "q_hi": 0.6
+    },
+    {
+      "tp": 3,
+      "fp": 4,
+      "fn": 0,
+      "tn": 0,
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "f1": 0.6,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 4,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "token_entropy (z-domain, q=0.40/0.60)",
+      "mu0": -0.347773233225135,
+      "mu1": 0.30160807600195844,
+      "mean_n": 25.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "BIRTH",
+        "4": "BIRTH",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.4,
+      "q_hi": 0.6
+    },
+    {
+      "tp": 2,
+      "fp": 2,
+      "fn": 1,
+      "tn": 2,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285715,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "semantic_entropy (raw, q=0.20/0.80)",
+      "mu0": 0.6384898163150435,
+      "mu1": 1.3321790362101222,
+      "mean_n": 21.428571428571427,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "SKIP"
+      },
+      "q_lo": 0.2,
+      "q_hi": 0.8
+    },
+    {
+      "tp": 3,
+      "fp": 4,
+      "fn": 0,
+      "tn": 0,
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "f1": 0.6,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 4,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "semantic_entropy (z-domain, q=0.20/0.80)",
+      "mu0": -1.047488861716702,
+      "mu1": 0.7015178600659673,
+      "mean_n": 21.285714285714285,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "BIRTH",
+        "4": "BIRTH",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.2,
+      "q_hi": 0.8
+    },
+    {
+      "tp": 2,
+      "fp": 2,
+      "fn": 1,
+      "tn": 2,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285715,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "semantic_entropy (raw, q=0.30/0.70)",
+      "mu0": 0.6730116650092565,
+      "mu1": 1.3321790362101222,
+      "mean_n": 21.428571428571427,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "SKIP"
+      },
+      "q_lo": 0.3,
+      "q_hi": 0.7
+    },
+    {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "tn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "semantic_entropy (z-domain, q=0.30/0.70)",
+      "mu0": -0.528367290844103,
+      "mu1": 0.5322525243411176,
+      "mean_n": 26.428571428571427,
+      "decisions": {
+        "2": "SKIP",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "SKIP",
+        "6": "SKIP",
+        "7": "SKIP",
+        "8": "SKIP"
+      },
+      "q_lo": 0.3,
+      "q_hi": 0.7
+    },
+    {
+      "tp": 2,
+      "fp": 2,
+      "fn": 1,
+      "tn": 2,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285715,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "semantic_entropy (raw, q=0.35/0.65)",
+      "mu0": 0.9502705362332347,
+      "mu1": 1.0549201649861442,
+      "mean_n": 22.571428571428573,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "SKIP"
+      },
+      "q_lo": 0.35,
+      "q_hi": 0.65
+    },
+    {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "tn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "semantic_entropy (z-domain, q=0.35/0.65)",
+      "mu0": -0.1947973262473984,
+      "mu1": 0.49541422786619455,
+      "mean_n": 23.857142857142858,
+      "decisions": {
+        "2": "SKIP",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "SKIP",
+        "6": "SKIP",
+        "7": "SKIP",
+        "8": "SKIP"
+      },
+      "q_lo": 0.35,
+      "q_hi": 0.65
+    },
+    {
+      "tp": 2,
+      "fp": 2,
+      "fn": 1,
+      "tn": 2,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285715,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "semantic_entropy (raw, q=0.40/0.60)",
+      "mu0": 0.9502705362332347,
+      "mu1": 1.054920164986144,
+      "mean_n": 22.571428571428573,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "SKIP"
+      },
+      "q_lo": 0.4,
+      "q_hi": 0.6
+    },
+    {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "tn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "semantic_entropy (z-domain, q=0.40/0.60)",
+      "mu0": -0.041995910799447415,
+      "mu1": 0.4108652633982538,
+      "mean_n": 24.857142857142858,
+      "decisions": {
+        "2": "SKIP",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "SKIP",
+        "6": "SKIP",
+        "7": "SKIP",
+        "8": "SKIP"
+      },
+      "q_lo": 0.4,
+      "q_hi": 0.6
+    },
+    {
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "tn": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "expert_disagreement (raw, q=0.20/0.80)",
+      "mu0": 0.10675365527470904,
+      "mu1": 0.28412113189697275,
+      "mean_n": 20.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "SKIP",
+        "7": "BIRTH",
+        "8": "SKIP"
+      },
+      "q_lo": 0.2,
+      "q_hi": 0.8
+    },
+    {
+      "tp": 0,
+      "fp": 1,
+      "fn": 3,
+      "tn": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 3,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "expert_disagreement (z-domain, q=0.20/0.80)",
+      "mu0": -0.8014144568086519,
+      "mu1": 0.8563033344132657,
+      "mean_n": 24.142857142857142,
+      "decisions": {
+        "2": "SKIP",
+        "3": "BIRTH",
+        "4": "SKIP",
+        "5": "SKIP",
+        "6": "SKIP",
+        "7": "SKIP",
+        "8": "SKIP"
+      },
+      "q_lo": 0.2,
+      "q_hi": 0.8
+    },
+    {
+      "tp": 1,
+      "fp": 3,
+      "fn": 2,
+      "tn": 1,
+      "precision": 0.25,
+      "recall": 0.3333333333333333,
+      "f1": 0.28571428571428575,
+      "agreement": 2,
+      "n": 7,
+      "agreement_rate": 0.2857142857142857,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "expert_disagreement (raw, q=0.30/0.70)",
+      "mu0": 0.12921733458836876,
+      "mu1": 0.23784535328547152,
+      "mean_n": 20.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "SKIP",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.3,
+      "q_hi": 0.7
+    },
+    {
+      "tp": 3,
+      "fp": 4,
+      "fn": 0,
+      "tn": 0,
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "f1": 0.6,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 4,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "expert_disagreement (z-domain, q=0.30/0.70)",
+      "mu0": -0.5655204297318054,
+      "mu1": 0.5412755036620979,
+      "mean_n": 23.714285714285715,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "BIRTH",
+        "4": "BIRTH",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.3,
+      "q_hi": 0.7
+    },
+    {
+      "tp": 1,
+      "fp": 3,
+      "fn": 2,
+      "tn": 1,
+      "precision": 0.25,
+      "recall": 0.3333333333333333,
+      "f1": 0.28571428571428575,
+      "agreement": 2,
+      "n": 7,
+      "agreement_rate": 0.2857142857142857,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "expert_disagreement (raw, q=0.35/0.65)",
+      "mu0": 0.1394446690877279,
+      "mu1": 0.22618880669275915,
+      "mean_n": 20.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "SKIP",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.35,
+      "q_hi": 0.65
+    },
+    {
+      "tp": 3,
+      "fp": 4,
+      "fn": 0,
+      "tn": 0,
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "f1": 0.6,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 4,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "expert_disagreement (z-domain, q=0.35/0.65)",
+      "mu0": -0.45851805588049627,
+      "mu1": 0.41069746892796866,
+      "mean_n": 24.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "BIRTH",
+        "4": "BIRTH",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.35,
+      "q_hi": 0.65
+    },
+    {
+      "tp": 1,
+      "fp": 3,
+      "fn": 2,
+      "tn": 1,
+      "precision": 0.25,
+      "recall": 0.3333333333333333,
+      "f1": 0.28571428571428575,
+      "agreement": 2,
+      "n": 7,
+      "agreement_rate": 0.2857142857142857,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "expert_disagreement (raw, q=0.40/0.60)",
+      "mu0": 0.14833370447158814,
+      "mu1": 0.21139655113220215,
+      "mean_n": 20.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "SKIP",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.4,
+      "q_hi": 0.6
+    },
+    {
+      "tp": 3,
+      "fp": 4,
+      "fn": 0,
+      "tn": 0,
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "f1": 0.6,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 4,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "expert_disagreement (z-domain, q=0.40/0.60)",
+      "mu0": -0.39534639999264515,
+      "mu1": 0.1897621114028737,
+      "mean_n": 24.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "BIRTH",
+        "4": "BIRTH",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.4,
+      "q_hi": 0.6
+    },
+    {
+      "tp": 1,
+      "fp": 1,
+      "fn": 2,
+      "tn": 3,
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1": 0.4,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "backbone_agreement (raw, q=0.20/0.80)",
+      "mu0": -0.92661954164505,
+      "mu1": -0.715971851348877,
+      "mean_n": 20.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "SKIP",
+        "7": "SKIP",
+        "8": "SKIP"
+      },
+      "q_lo": 0.2,
+      "q_hi": 0.8
+    },
+    {
+      "tp": 0,
+      "fp": 1,
+      "fn": 3,
+      "tn": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 3,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "backbone_agreement (z-domain, q=0.20/0.80)",
+      "mu0": -0.876734501674462,
+      "mu1": 1.035556058328582,
+      "mean_n": 22.714285714285715,
+      "decisions": {
+        "2": "SKIP",
+        "3": "BIRTH",
+        "4": "SKIP",
+        "5": "SKIP",
+        "6": "SKIP",
+        "7": "SKIP",
+        "8": "SKIP"
+      },
+      "q_lo": 0.2,
+      "q_hi": 0.8
+    },
+    {
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "tn": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "backbone_agreement (raw, q=0.30/0.70)",
+      "mu0": -0.8988489627838135,
+      "mu1": -0.788841712474823,
+      "mean_n": 20.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "SKIP",
+        "7": "SKIP",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.3,
+      "q_hi": 0.7
+    },
+    {
+      "tp": 3,
+      "fp": 4,
+      "fn": 0,
+      "tn": 0,
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "f1": 0.6,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 4,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "backbone_agreement (z-domain, q=0.30/0.70)",
+      "mu0": -0.6372937064016614,
+      "mu1": 0.604320458637315,
+      "mean_n": 25.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "BIRTH",
+        "4": "BIRTH",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.3,
+      "q_hi": 0.7
+    },
+    {
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "tn": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "backbone_agreement (raw, q=0.35/0.65)",
+      "mu0": -0.8823316097259521,
+      "mu1": -0.8053394198417664,
+      "mean_n": 20.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "SKIP",
+        "7": "SKIP",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.35,
+      "q_hi": 0.65
+    },
+    {
+      "tp": 3,
+      "fp": 4,
+      "fn": 0,
+      "tn": 0,
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "f1": 0.6,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 4,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "backbone_agreement (z-domain, q=0.35/0.65)",
+      "mu0": -0.5241970601285403,
+      "mu1": 0.3665787473766659,
+      "mean_n": 25.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "BIRTH",
+        "4": "BIRTH",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.35,
+      "q_hi": 0.65
+    },
+    {
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "tn": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "backbone_agreement (raw, q=0.40/0.60)",
+      "mu0": -0.8714636087417602,
+      "mu1": -0.828913164138794,
+      "mean_n": 21.285714285714285,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "SKIP",
+        "7": "SKIP",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.4,
+      "q_hi": 0.6
+    },
+    {
+      "tp": 3,
+      "fp": 4,
+      "fn": 0,
+      "tn": 0,
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "f1": 0.6,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 4,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "backbone_agreement (z-domain, q=0.40/0.60)",
+      "mu0": -0.4627538600538377,
+      "mu1": 0.19932578014621716,
+      "mean_n": 25.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "BIRTH",
+        "4": "BIRTH",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.4,
+      "q_hi": 0.6
+    },
+    {
+      "tp": 2,
+      "fp": 2,
+      "fn": 1,
+      "tn": 2,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285715,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "composite_uq (raw, q=0.20/0.80)",
+      "mu0": 0.12121951107068747,
+      "mu1": 0.3565175138814378,
+      "mean_n": 20.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "SKIP"
+      },
+      "q_lo": 0.2,
+      "q_hi": 0.8
+    },
+    {
+      "tp": 3,
+      "fp": 4,
+      "fn": 0,
+      "tn": 0,
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "f1": 0.6,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 4,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "composite_uq (z-domain, q=0.20/0.80)",
+      "mu0": -0.9416915554915531,
+      "mu1": 0.763018937318384,
+      "mean_n": 22.142857142857142,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "BIRTH",
+        "4": "BIRTH",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      },
+      "q_lo": 0.2,
+      "q_hi": 0.8
+    },
+    {
+      "tp": 2,
+      "fp": 2,
+      "fn": 1,
+      "tn": 2,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285715,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "composite_uq (raw, q=0.30/0.70)",
+      "mu0": 0.16442178877007993,
+      "mu1": 0.33061523834676254,
+      "mean_n": 20.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "SKIP"
+      },
+      "q_lo": 0.3,
+      "q_hi": 0.7
+    },
+    {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "tn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "composite_uq (z-domain, q=0.30/0.70)",
+      "mu0": -0.4323689360537134,
+      "mu1": 0.5246976150286914,
+      "mean_n": 25.857142857142858,
+      "decisions": {
+        "2": "SKIP",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "SKIP",
+        "6": "SKIP",
+        "7": "SKIP",
+        "8": "SKIP"
+      },
+      "q_lo": 0.3,
+      "q_hi": 0.7
+    },
+    {
+      "tp": 2,
+      "fp": 2,
+      "fn": 1,
+      "tn": 2,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285715,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "composite_uq (raw, q=0.35/0.65)",
+      "mu0": 0.20423875408968634,
+      "mu1": 0.31517006675786624,
+      "mean_n": 20.0,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "SKIP"
+      },
+      "q_lo": 0.35,
+      "q_hi": 0.65
+    },
+    {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "tn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "composite_uq (z-domain, q=0.35/0.65)",
+      "mu0": -0.24969522393214427,
+      "mu1": 0.4281984909832885,
+      "mean_n": 26.428571428571427,
+      "decisions": {
+        "2": "SKIP",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "SKIP",
+        "6": "SKIP",
+        "7": "SKIP",
+        "8": "SKIP"
+      },
+      "q_lo": 0.35,
+      "q_hi": 0.65
+    },
+    {
+      "tp": 2,
+      "fp": 2,
+      "fn": 1,
+      "tn": 2,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285715,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "composite_uq (raw, q=0.40/0.60)",
+      "mu0": 0.2303095911510532,
+      "mu1": 0.29665134914031344,
+      "mean_n": 21.142857142857142,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "SKIP"
+      },
+      "q_lo": 0.4,
+      "q_hi": 0.6
+    },
+    {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "tn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "composite_uq (z-domain, q=0.40/0.60)",
+      "mu0": -0.12325775245573148,
+      "mu1": 0.38706338611716623,
+      "mean_n": 26.428571428571427,
+      "decisions": {
+        "2": "SKIP",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "SKIP",
+        "6": "SKIP",
+        "7": "SKIP",
+        "8": "SKIP"
+      },
+      "q_lo": 0.4,
+      "q_hi": 0.6
+    },
+    {
+      "tp": 2,
+      "fp": 2,
+      "fn": 1,
+      "tn": 2,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285715,
+      "agreement": 4,
+      "n": 7,
+      "agreement_rate": 0.5714285714285714,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "vote-2of4 (q=0.20/0.80)",
+      "mu0": null,
+      "mu1": null,
+      "mean_n": NaN,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "SKIP"
+      }
+    },
+    {
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "tn": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "vote-3of4 (q=0.20/0.80)",
+      "mu0": null,
+      "mu1": null,
+      "mean_n": NaN,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "SKIP",
+        "7": "BIRTH",
+        "8": "SKIP"
+      }
+    },
+    {
+      "tp": 2,
+      "fp": 3,
+      "fn": 1,
+      "tn": 1,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "f1": 0.5,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        }
+      ],
+      "config": "vote-2of4 (q=0.30/0.70)",
+      "mu0": null,
+      "mu1": null,
+      "mean_n": NaN,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "BIRTH",
+        "7": "BIRTH",
+        "8": "BIRTH"
+      }
+    },
+    {
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "tn": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "agreement": 3,
+      "n": 7,
+      "agreement_rate": 0.42857142857142855,
+      "matrix": [
+        {
+          "pid": 2,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 3,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        },
+        {
+          "pid": 4,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 5,
+          "gate": "BIRTH",
+          "oracle": "BIRTH",
+          "cell": "TP"
+        },
+        {
+          "pid": 6,
+          "gate": "SKIP",
+          "oracle": "BIRTH",
+          "cell": "FN"
+        },
+        {
+          "pid": 7,
+          "gate": "BIRTH",
+          "oracle": "SKIP",
+          "cell": "FP"
+        },
+        {
+          "pid": 8,
+          "gate": "SKIP",
+          "oracle": "SKIP",
+          "cell": "TN"
+        }
+      ],
+      "config": "vote-3of4 (q=0.30/0.70)",
+      "mu0": null,
+      "mu1": null,
+      "mean_n": NaN,
+      "decisions": {
+        "2": "BIRTH",
+        "3": "SKIP",
+        "4": "SKIP",
+        "5": "BIRTH",
+        "6": "SKIP",
+        "7": "BIRTH",
+        "8": "SKIP"
+      }
+    }
+  ]
+}

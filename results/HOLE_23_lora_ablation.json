@@ -1,0 +1,321 @@
+{
+  "experiment": "HOLE_23_lora_capacity_ablation",
+  "judge": "ROUGE-L vs senior-teacher (heuristic, no LLM-as-judge required)",
+  "delta_threshold": 0.05,
+  "n_cells": 14,
+  "n_agree_with_baseline": 7,
+  "agreement_rate": 0.5,
+  "comparison": [
+    {
+      "cell": "p2_r8_e2",
+      "proposal_id": 2,
+      "config": {
+        "r": 8,
+        "ep": 2
+      },
+      "delta_mean": 0.038404857798750434,
+      "delta_std": 0.03966762802970847,
+      "ablation_birth": false,
+      "baseline_birth": false,
+      "agree": true
+    },
+    {
+      "cell": "p2_r16_e4",
+      "proposal_id": 2,
+      "config": {
+        "r": 16,
+        "ep": 4
+      },
+      "delta_mean": 0.2741708336599572,
+      "delta_std": 0.1541347278619862,
+      "ablation_birth": true,
+      "baseline_birth": false,
+      "agree": false
+    },
+    {
+      "cell": "p3_r8_e2",
+      "proposal_id": 3,
+      "config": {
+        "r": 8,
+        "ep": 2
+      },
+      "delta_mean": 0.15551812890431985,
+      "delta_std": 0.10649222696248484,
+      "ablation_birth": true,
+      "baseline_birth": false,
+      "agree": false
+    },
+    {
+      "cell": "p3_r16_e4",
+      "proposal_id": 3,
+      "config": {
+        "r": 16,
+        "ep": 4
+      },
+      "delta_mean": 0.46712823351491667,
+      "delta_std": 0.2000076734083095,
+      "ablation_birth": true,
+      "baseline_birth": false,
+      "agree": false
+    },
+    {
+      "cell": "p4_r8_e2",
+      "proposal_id": 4,
+      "config": {
+        "r": 8,
+        "ep": 2
+      },
+      "delta_mean": 0.12023234899693266,
+      "delta_std": 0.0749452760542392,
+      "ablation_birth": true,
+      "baseline_birth": true,
+      "agree": true
+    },
+    {
+      "cell": "p4_r16_e4",
+      "proposal_id": 4,
+      "config": {
+        "r": 16,
+        "ep": 4
+      },
+      "delta_mean": 0.38001969524437584,
+      "delta_std": 0.23992510411362372,
+      "ablation_birth": true,
+      "baseline_birth": true,
+      "agree": true
+    },
+    {
+      "cell": "p5_r8_e2",
+      "proposal_id": 5,
+      "config": {
+        "r": 8,
+        "ep": 2
+      },
+      "delta_mean": 0.09129051097113572,
+      "delta_std": 0.07991247190747908,
+      "ablation_birth": true,
+      "baseline_birth": true,
+      "agree": true
+    },
+    {
+      "cell": "p5_r16_e4",
+      "proposal_id": 5,
+      "config": {
+        "r": 16,
+        "ep": 4
+      },
+      "delta_mean": 0.36731773264255124,
+      "delta_std": 0.14925629871186863,
+      "ablation_birth": true,
+      "baseline_birth": true,
+      "agree": true
+    },
+    {
+      "cell": "p6_r8_e2",
+      "proposal_id": 6,
+      "config": {
+        "r": 8,
+        "ep": 2
+      },
+      "delta_mean": 0.20500943715071065,
+      "delta_std": 0.03332587539994278,
+      "ablation_birth": true,
+      "baseline_birth": true,
+      "agree": true
+    },
+    {
+      "cell": "p6_r16_e4",
+      "proposal_id": 6,
+      "config": {
+        "r": 16,
+        "ep": 4
+      },
+      "delta_mean": 0.5198566180842402,
+      "delta_std": 0.19135578387864172,
+      "ablation_birth": true,
+      "baseline_birth": true,
+      "agree": true
+    },
+    {
+      "cell": "p7_r8_e2",
+      "proposal_id": 7,
+      "config": {
+        "r": 8,
+        "ep": 2
+      },
+      "delta_mean": 0.07024025221817268,
+      "delta_std": 0.026211870220833537,
+      "ablation_birth": true,
+      "baseline_birth": false,
+      "agree": false
+    },
+    {
+      "cell": "p7_r16_e4",
+      "proposal_id": 7,
+      "config": {
+        "r": 16,
+        "ep": 4
+      },
+      "delta_mean": 0.6106110939771593,
+      "delta_std": 0.15508718345106148,
+      "ablation_birth": true,
+      "baseline_birth": false,
+      "agree": false
+    },
+    {
+      "cell": "p8_r8_e2",
+      "proposal_id": 8,
+      "config": {
+        "r": 8,
+        "ep": 2
+      },
+      "delta_mean": 0.057136463798003946,
+      "delta_std": 0.0570419648754893,
+      "ablation_birth": true,
+      "baseline_birth": false,
+      "agree": false
+    },
+    {
+      "cell": "p8_r16_e4",
+      "proposal_id": 8,
+      "config": {
+        "r": 16,
+        "ep": 4
+      },
+      "delta_mean": 0.317285124051827,
+      "delta_std": 0.19041824940685737,
+      "ablation_birth": true,
+      "baseline_birth": false,
+      "agree": false
+    }
+  ],
+  "by_cell": {
+    "p2_r8_e2": {
+      "proposal_id": 2,
+      "rank": 8,
+      "epochs": 2,
+      "n": 20,
+      "delta_mean": 0.038404857798750434,
+      "delta_std": 0.03966762802970847,
+      "ablation_birth": false
+    },
+    "p2_r16_e4": {
+      "proposal_id": 2,
+      "rank": 16,
+      "epochs": 4,
+      "n": 20,
+      "delta_mean": 0.2741708336599572,
+      "delta_std": 0.1541347278619862,
+      "ablation_birth": true
+    },
+    "p3_r8_e2": {
+      "proposal_id": 3,
+      "rank": 8,
+      "epochs": 2,
+      "n": 20,
+      "delta_mean": 0.15551812890431985,
+      "delta_std": 0.10649222696248484,
+      "ablation_birth": true
+    },
+    "p3_r16_e4": {
+      "proposal_id": 3,
+      "rank": 16,
+      "epochs": 4,
+      "n": 20,
+      "delta_mean": 0.46712823351491667,
+      "delta_std": 0.2000076734083095,
+      "ablation_birth": true
+    },
+    "p4_r8_e2": {
+      "proposal_id": 4,
+      "rank": 8,
+      "epochs": 2,
+      "n": 20,
+      "delta_mean": 0.12023234899693266,
+      "delta_std": 0.0749452760542392,
+      "ablation_birth": true
+    },
+    "p4_r16_e4": {
+      "proposal_id": 4,
+      "rank": 16,
+      "epochs": 4,
+      "n": 20,
+      "delta_mean": 0.38001969524437584,
+      "delta_std": 0.23992510411362372,
+      "ablation_birth": true
+    },
+    "p5_r8_e2": {
+      "proposal_id": 5,
+      "rank": 8,
+      "epochs": 2,
+      "n": 20,
+      "delta_mean": 0.09129051097113572,
+      "delta_std": 0.07991247190747908,
+      "ablation_birth": true
+    },
+    "p5_r16_e4": {
+      "proposal_id": 5,
+      "rank": 16,
+      "epochs": 4,
+      "n": 20,
+      "delta_mean": 0.36731773264255124,
+      "delta_std": 0.14925629871186863,
+      "ablation_birth": true
+    },
+    "p6_r8_e2": {
+      "proposal_id": 6,
+      "rank": 8,
+      "epochs": 2,
+      "n": 20,
+      "delta_mean": 0.20500943715071065,
+      "delta_std": 0.03332587539994278,
+      "ablation_birth": true
+    },
+    "p6_r16_e4": {
+      "proposal_id": 6,
+      "rank": 16,
+      "epochs": 4,
+      "n": 20,
+      "delta_mean": 0.5198566180842402,
+      "delta_std": 0.19135578387864172,
+      "ablation_birth": true
+    },
+    "p7_r8_e2": {
+      "proposal_id": 7,
+      "rank": 8,
+      "epochs": 2,
+      "n": 20,
+      "delta_mean": 0.07024025221817268,
+      "delta_std": 0.026211870220833537,
+      "ablation_birth": true
+    },
+    "p7_r16_e4": {
+      "proposal_id": 7,
+      "rank": 16,
+      "epochs": 4,
+      "n": 20,
+      "delta_mean": 0.6106110939771593,
+      "delta_std": 0.15508718345106148,
+      "ablation_birth": true
+    },
+    "p8_r8_e2": {
+      "proposal_id": 8,
+      "rank": 8,
+      "epochs": 2,
+      "n": 20,
+      "delta_mean": 0.057136463798003946,
+      "delta_std": 0.0570419648754893,
+      "ablation_birth": true
+    },
+    "p8_r16_e4": {
+      "proposal_id": 8,
+      "rank": 16,
+      "epochs": 4,
+      "n": 20,
+      "delta_mean": 0.317285124051827,
+      "delta_std": 0.19041824940685737,
+      "ablation_birth": true
+    }
+  },
+  "notes": "Heuristic judge fallback; the baseline (r=32, ep=10) was DeepSeek-judged in posthoc_counterfactual.json. The ROUGE-L scale is different from the pairwise-verdict scale, so a delta_threshold of 0.05 is calibrated as 'noticeable' lift in token-level lexical overlap with the teacher target."
+}

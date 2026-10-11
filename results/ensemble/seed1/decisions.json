@@ -1,0 +1,154 @@
+{
+  "eager": [
+    {
+      "cluster_id": 2,
+      "decision": "BIRTH",
+      "reason": "size=60>=15 and mean_uq=1.450>=0.3",
+      "n_observations_used": 0,
+      "trigger_score": 0.9737119483947754
+    },
+    {
+      "cluster_id": 0,
+      "decision": "BIRTH",
+      "reason": "size=50>=15 and mean_uq=1.070>=0.3",
+      "n_observations_used": 0,
+      "trigger_score": 0.7565147428512573
+    },
+    {
+      "cluster_id": 3,
+      "decision": "BIRTH",
+      "reason": "size=26>=15 and mean_uq=0.885>=0.3",
+      "n_observations_used": 0,
+      "trigger_score": 0.6209951769021841
+    },
+    {
+      "cluster_id": 1,
+      "decision": "BIRTH",
+      "reason": "size=216>=15 and mean_uq=0.692>=0.3",
+      "n_observations_used": 0,
+      "trigger_score": 0.5678736016262387
+    }
+  ],
+  "observation": [
+    {
+      "cluster_id": 2,
+      "decision": "BIRTH",
+      "reason": "SPRT-H1 at n=20 mean=1.400",
+      "n_observations_used": 20,
+      "uq_observations": [
+        1.5,
+        1.0,
+        1.0,
+        1.0,
+        1.5,
+        1.5,
+        1.5,
+        1.0,
+        1.5,
+        2.0,
+        1.0,
+        1.0,
+        1.0,
+        1.5,
+        1.5,
+        1.5,
+        2.1903352535706313,
+        1.3149183286345723,
+        2.0,
+        1.5
+      ],
+      "mean_uq_observed": 1.4002626791102601,
+      "trigger_score": 0.9737119483947754
+    },
+    {
+      "cluster_id": 0,
+      "decision": "BIRTH",
+      "reason": "SPRT-H1 at n=20 mean=1.150",
+      "n_observations_used": 20,
+      "uq_observations": [
+        1.5,
+        2.0,
+        2.0,
+        0.5,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.5,
+        1.5,
+        1.0,
+        0.5,
+        1.5,
+        1.5,
+        1.5,
+        0.5,
+        1.0,
+        1.0
+      ],
+      "mean_uq_observed": 1.15,
+      "trigger_score": 0.7565147428512573
+    },
+    {
+      "cluster_id": 3,
+      "decision": "BIRTH",
+      "reason": "SPRT-H1 at n=20 mean=0.875",
+      "n_observations_used": 20,
+      "uq_observations": [
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.5,
+        1.0,
+        0.5,
+        0.5,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.5,
+        0.5,
+        1.0,
+        0.5
+      ],
+      "mean_uq_observed": 0.875,
+      "trigger_score": 0.6209951769021841
+    },
+    {
+      "cluster_id": 1,
+      "decision": "BIRTH",
+      "reason": "SPRT-H1 at n=20 mean=0.652",
+      "n_observations_used": 20,
+      "uq_observations": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        1.0,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        1.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5407541366467616,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        0.5
+      ],
+      "mean_uq_observed": 0.6520377068323381,
+      "trigger_score": 0.5678736016262387
+    }
+  ]
+}

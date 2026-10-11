@@ -1,0 +1,14 @@
+torch>=2.4
+transformers>=4.45
+peft>=0.13
+accelerate
+datasets
+sentence-transformers>=3.2
+hdbscan>=0.8.40
+scikit-learn
+numpy>=1.26
+pyyaml
+matplotlib>=3.8
+# Optional (LLM judge)
+anthropic
+openai

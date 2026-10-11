@@ -1,0 +1,10 @@
+name: eager
+gate: eager
+
+cluster:
+  min_cluster_size: 15
+  min_uq: 0.30
+
+# Eager has no observation phase; these fields kept for compatibility
+observation:
+  enabled: false

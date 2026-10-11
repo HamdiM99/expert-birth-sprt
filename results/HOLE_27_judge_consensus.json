@@ -1,0 +1,169 @@
+{
+  "config": {
+    "temperatures": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "n_repeat": 3,
+    "delta_threshold": 0.15,
+    "max_q": 3
+  },
+  "proposals": [
+    {
+      "proposal_id": 2,
+      "judges": {
+        "T00": {
+          "decision": "SKIP",
+          "mean_delta": -0.7777777777777778,
+          "n_queries": 3
+        },
+        "T05": {
+          "decision": "SKIP",
+          "mean_delta": -0.3333333333333333,
+          "n_queries": 3
+        },
+        "T10": {
+          "decision": "BIRTH",
+          "mean_delta": 0.22222222222222224,
+          "n_queries": 3
+        }
+      }
+    },
+    {
+      "proposal_id": 3,
+      "judges": {
+        "T00": {
+          "decision": "SKIP",
+          "mean_delta": -0.5555555555555555,
+          "n_queries": 3
+        },
+        "T05": {
+          "decision": "SKIP",
+          "mean_delta": -0.4444444444444444,
+          "n_queries": 3
+        },
+        "T10": {
+          "decision": "SKIP",
+          "mean_delta": -0.6666666666666666,
+          "n_queries": 3
+        }
+      }
+    },
+    {
+      "proposal_id": 4,
+      "judges": {
+        "T00": {
+          "decision": "SKIP",
+          "mean_delta": -1.0,
+          "n_queries": 3
+        },
+        "T05": {
+          "decision": "SKIP",
+          "mean_delta": -0.5555555555555555,
+          "n_queries": 3
+        },
+        "T10": {
+          "decision": "SKIP",
+          "mean_delta": -0.3333333333333333,
+          "n_queries": 3
+        }
+      }
+    },
+    {
+      "proposal_id": 5,
+      "judges": {
+        "T00": {
+          "decision": "BIRTH",
+          "mean_delta": 0.4444444444444444,
+          "n_queries": 3
+        },
+        "T05": {
+          "decision": "BIRTH",
+          "mean_delta": 0.2222222222222222,
+          "n_queries": 3
+        },
+        "T10": {
+          "decision": "BIRTH",
+          "mean_delta": 0.6666666666666666,
+          "n_queries": 3
+        }
+      }
+    },
+    {
+      "proposal_id": 6,
+      "judges": {
+        "T00": {
+          "decision": "BIRTH",
+          "mean_delta": 1.0,
+          "n_queries": 3
+        },
+        "T05": {
+          "decision": "BIRTH",
+          "mean_delta": 1.0,
+          "n_queries": 3
+        },
+        "T10": {
+          "decision": "BIRTH",
+          "mean_delta": 0.3333333333333333,
+          "n_queries": 3
+        }
+      }
+    },
+    {
+      "proposal_id": 7,
+      "judges": {
+        "T00": {
+          "decision": "SKIP",
+          "mean_delta": -0.5555555555555555,
+          "n_queries": 3
+        },
+        "T05": {
+          "decision": "SKIP",
+          "mean_delta": -0.3333333333333333,
+          "n_queries": 3
+        },
+        "T10": {
+          "decision": "SKIP",
+          "mean_delta": -0.4444444444444444,
+          "n_queries": 3
+        }
+      }
+    },
+    {
+      "proposal_id": 8,
+      "judges": {
+        "T00": {
+          "decision": "SKIP",
+          "mean_delta": 0.0,
+          "n_queries": 3
+        },
+        "T05": {
+          "decision": "SKIP",
+          "mean_delta": 0.0,
+          "n_queries": 3
+        },
+        "T10": {
+          "decision": "BIRTH",
+          "mean_delta": 0.2222222222222222,
+          "n_queries": 3
+        }
+      }
+    }
+  ],
+  "pair_agreement": {
+    "T00~T05": 7,
+    "T00~T10": 5,
+    "T05~T10": 5
+  },
+  "majority_decisions": {
+    "2": "SKIP",
+    "3": "SKIP",
+    "4": "SKIP",
+    "5": "BIRTH",
+    "6": "BIRTH",
+    "7": "SKIP",
+    "8": "SKIP"
+  },
+  "wall_time_sec": 293.4264061450958
+}

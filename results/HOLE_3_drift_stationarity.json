@@ -1,0 +1,103 @@
+{
+  "n_proposals": 7,
+  "n_with_n_geq_30": 5,
+  "pct_n_geq_30": 0.7142857142857143,
+  "pct_adf_rejects_nonstat": 0.2,
+  "pct_robustly_stationary": 0.0,
+  "pct_ks_early_vs_late_drift": 0.5714285714285714,
+  "alpha": 0.05,
+  "per_proposal": [
+    {
+      "id": 2,
+      "cluster_id": "0",
+      "status": "APPROVED",
+      "n": 51,
+      "ks_p": 0.6519786715163741,
+      "ks_drift_at_05": false,
+      "adf_p": 0.07681038927764237,
+      "adf_rejects_nonstat_at_05": false,
+      "kpss_p": 0.1,
+      "kpss_does_not_reject_stat_at_05": true,
+      "robustly_stationary": false
+    },
+    {
+      "id": 3,
+      "cluster_id": "1",
+      "status": "APPROVED",
+      "n": 92,
+      "ks_p": 1.5350568752744162e-09,
+      "ks_drift_at_05": true,
+      "adf_p": 0.02569455744282476,
+      "adf_rejects_nonstat_at_05": true,
+      "kpss_p": 0.01,
+      "kpss_does_not_reject_stat_at_05": false,
+      "robustly_stationary": false
+    },
+    {
+      "id": 4,
+      "cluster_id": "2",
+      "status": "APPROVED",
+      "n": 81,
+      "ks_p": 1.4117671769271853e-05,
+      "ks_drift_at_05": true,
+      "adf_p": 0.4371470046501902,
+      "adf_rejects_nonstat_at_05": false,
+      "kpss_p": 0.01754845144588973,
+      "kpss_does_not_reject_stat_at_05": false,
+      "robustly_stationary": false
+    },
+    {
+      "id": 5,
+      "cluster_id": "4",
+      "status": "ABANDONED",
+      "n": 89,
+      "ks_p": 0.00011214874538820587,
+      "ks_drift_at_05": true,
+      "adf_p": 0.7472289282272891,
+      "adf_rejects_nonstat_at_05": false,
+      "kpss_p": 0.01,
+      "kpss_does_not_reject_stat_at_05": false,
+      "robustly_stationary": false
+    },
+    {
+      "id": 6,
+      "cluster_id": "5",
+      "status": "ABANDONED",
+      "n": 20,
+      "ks_p": 0.41752365281777043,
+      "ks_drift_at_05": false,
+      "adf_p": null,
+      "adf_rejects_nonstat_at_05": null,
+      "kpss_p": 0.0358667527185359,
+      "kpss_does_not_reject_stat_at_05": false,
+      "robustly_stationary": false
+    },
+    {
+      "id": 7,
+      "cluster_id": "6",
+      "status": "APPROVED",
+      "n": 42,
+      "ks_p": 3.16081952683007e-06,
+      "ks_drift_at_05": true,
+      "adf_p": 0.4236097085827829,
+      "adf_rejects_nonstat_at_05": false,
+      "kpss_p": 0.018994854585794894,
+      "kpss_does_not_reject_stat_at_05": false,
+      "robustly_stationary": false
+    },
+    {
+      "id": 8,
+      "cluster_id": "7",
+      "status": "PROPOSED",
+      "n": 25,
+      "ks_p": 0.07705286233486532,
+      "ks_drift_at_05": false,
+      "adf_p": null,
+      "adf_rejects_nonstat_at_05": null,
+      "kpss_p": 0.09510728637574978,
+      "kpss_does_not_reject_stat_at_05": true,
+      "robustly_stationary": false
+    }
+  ],
+  "note": "ADF H0=non-stationary (rejecting at p<0.05 supports stationarity). KPSS H0=stationary (failing to reject supports stationarity). 'Robustly stationary' means ADF rejects AND KPSS does not reject."
+}

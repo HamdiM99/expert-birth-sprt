@@ -1,0 +1,73 @@
+{
+  "eager": {
+    "tp": 5,
+    "fp": 2,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "n_births": 7
+  },
+  "sprt": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 2,
+    "tn": 2,
+    "precision": 1.0,
+    "recall": 0.6,
+    "n_births": 3
+  },
+  "sprt_avg_obs": 21.714285714285715,
+  "batched_probe": {
+    "K=10": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2,
+      "tn": 2,
+      "precision": 1.0,
+      "recall": 0.6,
+      "n_births": 3,
+      "n_obs": 10
+    },
+    "K=15": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2,
+      "tn": 2,
+      "precision": 1.0,
+      "recall": 0.6,
+      "n_births": 3,
+      "n_obs": 15
+    },
+    "K=20": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2,
+      "tn": 2,
+      "precision": 1.0,
+      "recall": 0.6,
+      "n_births": 3,
+      "n_obs": 20
+    },
+    "K=30": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2,
+      "tn": 2,
+      "precision": 1.0,
+      "recall": 0.6,
+      "n_births": 3,
+      "n_obs": 30
+    },
+    "K=50": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 1,
+      "tn": 2,
+      "precision": 1.0,
+      "recall": 0.8,
+      "n_births": 4,
+      "n_obs": 50
+    }
+  }
+}

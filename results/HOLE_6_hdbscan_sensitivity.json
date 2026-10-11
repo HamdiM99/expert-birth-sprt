@@ -1,0 +1,145 @@
+{
+  "n_queries": 420,
+  "embedder_primary": "MiniLM (384-dim, from deployment)",
+  "original_config": {
+    "min_cluster_size": 15,
+    "min_samples": 15,
+    "n_clusters": 7,
+    "n_noise": 176
+  },
+  "grid_min_cluster_size": [
+    10,
+    15,
+    20,
+    30
+  ],
+  "grid_min_samples": [
+    5,
+    10,
+    15
+  ],
+  "cells": [
+    {
+      "min_cluster_size": 10,
+      "min_samples": 5,
+      "n_clusters": 23,
+      "n_noise": 13,
+      "noise_frac": 0.030952380952380953,
+      "ari_vs_orig_full": 0.29969863506841415,
+      "ari_vs_orig_excl_noise": 0.8718948928064103
+    },
+    {
+      "min_cluster_size": 10,
+      "min_samples": 10,
+      "n_clusters": 23,
+      "n_noise": 19,
+      "noise_frac": 0.04523809523809524,
+      "ari_vs_orig_full": 0.3090963158344568,
+      "ari_vs_orig_excl_noise": 0.8718948928064103
+    },
+    {
+      "min_cluster_size": 10,
+      "min_samples": 15,
+      "n_clusters": 7,
+      "n_noise": 176,
+      "noise_frac": 0.41904761904761906,
+      "ari_vs_orig_full": 1.0,
+      "ari_vs_orig_excl_noise": 1.0
+    },
+    {
+      "min_cluster_size": 15,
+      "min_samples": 5,
+      "n_clusters": 7,
+      "n_noise": 152,
+      "noise_frac": 0.3619047619047619,
+      "ari_vs_orig_full": 0.8395854033740792,
+      "ari_vs_orig_excl_noise": 1.0
+    },
+    {
+      "min_cluster_size": 15,
+      "min_samples": 10,
+      "n_clusters": 7,
+      "n_noise": 158,
+      "noise_frac": 0.3761904761904762,
+      "ari_vs_orig_full": 0.8792938949752311,
+      "ari_vs_orig_excl_noise": 1.0
+    },
+    {
+      "min_cluster_size": 15,
+      "min_samples": 15,
+      "n_clusters": 7,
+      "n_noise": 176,
+      "noise_frac": 0.41904761904761906,
+      "ari_vs_orig_full": 1.0,
+      "ari_vs_orig_excl_noise": 1.0
+    },
+    {
+      "min_cluster_size": 20,
+      "min_samples": 5,
+      "n_clusters": 7,
+      "n_noise": 152,
+      "noise_frac": 0.3619047619047619,
+      "ari_vs_orig_full": 0.8395854033740792,
+      "ari_vs_orig_excl_noise": 1.0
+    },
+    {
+      "min_cluster_size": 20,
+      "min_samples": 10,
+      "n_clusters": 7,
+      "n_noise": 158,
+      "noise_frac": 0.3761904761904762,
+      "ari_vs_orig_full": 0.8792938949752311,
+      "ari_vs_orig_excl_noise": 1.0
+    },
+    {
+      "min_cluster_size": 20,
+      "min_samples": 15,
+      "n_clusters": 7,
+      "n_noise": 176,
+      "noise_frac": 0.41904761904761906,
+      "ari_vs_orig_full": 1.0,
+      "ari_vs_orig_excl_noise": 1.0
+    },
+    {
+      "min_cluster_size": 30,
+      "min_samples": 5,
+      "n_clusters": 4,
+      "n_noise": 202,
+      "noise_frac": 0.48095238095238096,
+      "ari_vs_orig_full": 0.5938034986596755,
+      "ari_vs_orig_excl_noise": 0.8626599202503973
+    },
+    {
+      "min_cluster_size": 30,
+      "min_samples": 10,
+      "n_clusters": 4,
+      "n_noise": 182,
+      "noise_frac": 0.43333333333333335,
+      "ari_vs_orig_full": 0.6869125443471821,
+      "ari_vs_orig_excl_noise": 0.7119156216697561
+    },
+    {
+      "min_cluster_size": 30,
+      "min_samples": 15,
+      "n_clusters": 4,
+      "n_noise": 161,
+      "noise_frac": 0.38333333333333336,
+      "ari_vs_orig_full": 0.5518533120240912,
+      "ari_vs_orig_excl_noise": 0.7119156216697561
+    }
+  ],
+  "second_embedder": {
+    "attempted": true,
+    "model": "BAAI/bge-small-en-v1.5",
+    "result": "model_loadable_but_no_query_text_available_in_npz"
+  },
+  "summary": {
+    "n_clusters_min": 4,
+    "n_clusters_max": 23,
+    "ari_min": 0.29969863506841415,
+    "ari_max": 1.0,
+    "ari_median": 0.8395854033740792,
+    "n_clusters_at_orig_cell": 7,
+    "verdict_note": "HDBSCAN configurations close to (mcs=15, ms=15) reproduce the deployment cluster set within rounding; smaller mcs produces more granular clusters, larger mcs collapses them."
+  }
+}

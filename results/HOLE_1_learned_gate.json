@@ -1,0 +1,39 @@
+{
+  "n_proposals_used": 7,
+  "n_features": 6,
+  "n_pos": 5,
+  "n_neg": 2,
+  "n_clusters_extra_controlled_all_false": 15,
+  "logistic_auroc": 1.0,
+  "mlp_auroc": 1.0,
+  "mean_uq_auroc": 1.0,
+  "sprt_tnr_paper_mean_seeds_tau08": 0.36,
+  "note": "Controlled-experiment GT is all-False in every seed, so AUROC is undefined there. Deployment LOO is the only labeled regime; N=7 (5 pos, 2 neg). Treat this as a sanity check, not a full benchmark.",
+  "predictions_logistic": [
+    0.942337151377379,
+    0.7964505232360024,
+    0.995834224973223,
+    0.5242426677734253,
+    0.4938032408006099,
+    0.9283522734533691,
+    0.7288914415216339
+  ],
+  "predictions_mlp": [
+    0.9926554737989549,
+    0.77246468050153,
+    0.9986479711385918,
+    0.09000586365173875,
+    0.38562081048589003,
+    0.9814389412219962,
+    0.7275914782589283
+  ],
+  "labels": [
+    true,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true
+  ]
+}

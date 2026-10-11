@@ -1,0 +1,80 @@
+{
+  "n_eligible_proposals": 7,
+  "deployment_decisions_sprt_birth": [
+    true,
+    true,
+    true,
+    false,
+    false,
+    true,
+    false
+  ],
+  "proxy_gt_per_proposal": [
+    true,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true
+  ],
+  "oracle_gt_per_proposal": [
+    false,
+    false,
+    true,
+    true,
+    true,
+    false,
+    false
+  ],
+  "n_obs_per_proposal": [
+    51,
+    92,
+    81,
+    89,
+    20,
+    42,
+    25
+  ],
+  "avg_obs_sprt": 57.142857142857146,
+  "proxy_metrics": {
+    "TP": 4,
+    "FP": 0,
+    "FN": 1,
+    "TN": 2,
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1": 0.888888888888889,
+    "n_births": 4,
+    "useful_births_frac": 0.5714285714285714,
+    "wasted_births_frac": 0.0
+  },
+  "oracle_metrics": {
+    "TP": 1,
+    "FP": 3,
+    "FN": 2,
+    "TN": 1,
+    "precision": 0.25,
+    "recall": 0.3333333333333333,
+    "f1": 0.28571428571428575,
+    "n_births": 4,
+    "useful_births_frac": 0.14285714285714285,
+    "wasted_births_frac": 0.42857142857142855
+  },
+  "cost_savings": {
+    "eager_baseline_births": 7,
+    "sprt_births": 4,
+    "sprt_fraction_lora_saved_vs_eager": 0.4285714285714286,
+    "sprt_useful_lora_frac_proxy": 0.5714285714285714,
+    "sprt_useful_lora_frac_oracle": 0.14285714285714285,
+    "oracle_optimal_births": 3,
+    "oracle_optimal_savings_vs_eager": 0.5714285714285714,
+    "note": "Eager spawns 1 LoRA per eligible proposal (7). SPRT spawns only on BIRTH decisions (4). Of those 4 BIRTHs, oracle confirms 1 useful (TP=1) and rejects 3 as harmful/neutral (FP=3). SPRT also missed 2 oracle-positive cases (FN=2, props 5 and 6), which eager would have trained. Net: SPRT saves 3/7=42.9% of LoRAs vs eager but at the cost of missing 2/3 oracle-positive opportunities. Under proxy GT the picture flips: SPRT looks excellent because the proxy treats every APPROVED-status as positive."
+  },
+  "summary": {
+    "proxy_vs_oracle_p_drop": 0.75,
+    "proxy_vs_oracle_r_drop": 0.46666666666666673,
+    "proxy_vs_oracle_f1_drop": 0.6031746031746033,
+    "headline": "Tab-2 SPRT: proxy GT P=1.00 R=0.80 F1=0.89; oracle GT P=0.25 R=0.33 F1=0.29. Savings vs eager: 43% of LoRA trainings avoided, but oracle says only 14% of all eligible LoRAs (1/7) are actually useful \u2014 SPRT spawns 4\u00d7 too many under oracle."
+  }
+}

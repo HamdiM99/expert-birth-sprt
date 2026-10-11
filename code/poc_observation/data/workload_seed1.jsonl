@@ -1,0 +1,420 @@
+{"block": "noise", "query": "How do birds know where to migrate?", "gt_needs_birth": null, "seed": 1, "idx": 0}
+{"block": "true_need_med", "query": "A 30-year-old patient presents with palpitations. ECG shows atrial fibrillation with rapid response. What is the most likely diagnosis and immediate management?", "gt_needs_birth": true, "seed": 1, "idx": 1}
+{"block": "true_need_med", "query": "Interpret this ABG: pH 7.10, pCO2 30, HCO3 12. What is the acid-base disturbance and likely cause?", "gt_needs_birth": true, "seed": 1, "idx": 2}
+{"block": "trap_a", "query": "Elaborate at considerable length on the mechanism by which gaseous oxygen is sequestered into the alveolar architecture of the human pulmonary system.", "gt_needs_birth": false, "seed": 1, "idx": 3}
+{"block": "true_need_legal", "query": "Sanctions encourues pour travail dissimulé selon le Code du travail (article applicable + peine maximale) ?", "gt_needs_birth": true, "seed": 1, "idx": 4}
+{"block": "noise", "query": "What's the speed of light?", "gt_needs_birth": null, "seed": 1, "idx": 5}
+{"block": "noise", "query": "What's the largest planet in the solar system?", "gt_needs_birth": null, "seed": 1, "idx": 6}
+{"block": "noise", "query": "What is gravity?", "gt_needs_birth": null, "seed": 1, "idx": 7}
+{"block": "noise", "query": "Why does ice float on water?", "gt_needs_birth": null, "seed": 1, "idx": 8}
+{"block": "true_need_legal", "query": "Selon l'article L4121-1 du Code du travail, quelles sont les conditions de obligation de sécurité ?", "gt_needs_birth": true, "seed": 1, "idx": 9}
+{"block": "noise", "query": "Why does ice float on water?", "gt_needs_birth": null, "seed": 1, "idx": 10}
+{"block": "noise", "query": "How do plants make food?", "gt_needs_birth": null, "seed": 1, "idx": 11}
+{"block": "noise", "query": "How do magnets work?", "gt_needs_birth": null, "seed": 1, "idx": 12}
+{"block": "noise", "query": "Why is the ocean salty?", "gt_needs_birth": null, "seed": 1, "idx": 13}
+{"block": "true_need_med", "query": "Interpret this ABG: pH 7.10, pCO2 30, HCO3 12. What is the acid-base disturbance and likely cause?", "gt_needs_birth": true, "seed": 1, "idx": 14}
+{"block": "noise", "query": "Why is the ocean salty?", "gt_needs_birth": null, "seed": 1, "idx": 15}
+{"block": "true_need_med", "query": "A 30-year-old patient presents with palpitations. ECG shows atrial fibrillation with rapid response. What is the most likely diagnosis and immediate management?", "gt_needs_birth": true, "seed": 1, "idx": 16}
+{"block": "true_need_code", "query": "Given a string of length n, produce all distinct substrings. Constraints: using a suffix automaton.", "gt_needs_birth": true, "seed": 1, "idx": 17}
+{"block": "true_need_legal", "query": "Quelle est la procédure pour mise en demeure en cas de inexécution contractuelle en droit français ?", "gt_needs_birth": true, "seed": 1, "idx": 18}
+{"block": "true_need_code", "query": "Implement the Bellman-Ford shortest path in Python with O(VE) complexity. Handle edge cases.", "gt_needs_birth": true, "seed": 1, "idx": 19}
+{"block": "noise", "query": "Why is the sky blue?", "gt_needs_birth": null, "seed": 1, "idx": 20}
+{"block": "noise", "query": "Why is the ocean salty?", "gt_needs_birth": null, "seed": 1, "idx": 21}
+{"block": "trap_b", "query": "Le sujet de droit X exhale-t-il du dioxyde de carbone dans le respect du principe de licéité ?", "gt_needs_birth": false, "seed": 1, "idx": 22}
+{"block": "true_need_med", "query": "What is the mechanism of aspirin in treating acute coronary syndrome?", "gt_needs_birth": true, "seed": 1, "idx": 23}
+{"block": "true_need_med", "query": "What is the mechanism of omeprazole in treating GERD?", "gt_needs_birth": true, "seed": 1, "idx": 24}
+{"block": "true_need_code", "query": "Implement the Bellman-Ford shortest path in Python with O(VE) complexity. Handle edge cases.", "gt_needs_birth": true, "seed": 1, "idx": 25}
+{"block": "true_need_legal", "query": "Différencier vice du consentement et erreur substantielle en droit civil.", "gt_needs_birth": true, "seed": 1, "idx": 26}
+{"block": "true_need_med", "query": "A 30-year-old patient presents with palpitations. ECG shows atrial fibrillation with rapid response. What is the most likely diagnosis and immediate management?", "gt_needs_birth": true, "seed": 1, "idx": 27}
+{"block": "noise", "query": "Why do we get goosebumps?", "gt_needs_birth": null, "seed": 1, "idx": 28}
+{"block": "noise", "query": "How does WiFi work, briefly?", "gt_needs_birth": null, "seed": 1, "idx": 29}
+{"block": "noise", "query": "Why do leaves change color in fall?", "gt_needs_birth": null, "seed": 1, "idx": 30}
+{"block": "true_need_med", "query": "Interpret this ABG: pH 7.45, pCO2 30, HCO3 22. What is the acid-base disturbance and likely cause?", "gt_needs_birth": true, "seed": 1, "idx": 31}
+{"block": "noise", "query": "How does a battery store energy?", "gt_needs_birth": null, "seed": 1, "idx": 32}
+{"block": "noise", "query": "What's the speed of light?", "gt_needs_birth": null, "seed": 1, "idx": 33}
+{"block": "true_need_med", "query": "What is the mechanism of omeprazole in treating GERD?", "gt_needs_birth": true, "seed": 1, "idx": 34}
+{"block": "noise", "query": "What is photosynthesis in one sentence?", "gt_needs_birth": null, "seed": 1, "idx": 35}
+{"block": "noise", "query": "How does a rainbow form?", "gt_needs_birth": null, "seed": 1, "idx": 36}
+{"block": "noise", "query": "How does WiFi work, briefly?", "gt_needs_birth": null, "seed": 1, "idx": 37}
+{"block": "noise", "query": "Why do we get goosebumps?", "gt_needs_birth": null, "seed": 1, "idx": 38}
+{"block": "true_need_legal", "query": "Sanctions encourues pour escroquerie selon le Code pénal (article applicable + peine maximale) ?", "gt_needs_birth": true, "seed": 1, "idx": 39}
+{"block": "noise", "query": "Tell me a fun fact about octopuses.", "gt_needs_birth": null, "seed": 1, "idx": 40}
+{"block": "true_need_code", "query": "Optimize this naive solution to the longest increasing subsequence from O(n²) to O(sqrt(n)).", "gt_needs_birth": true, "seed": 1, "idx": 41}
+{"block": "true_need_legal", "query": "Sanctions encourues pour abus de confiance selon le Code du travail (article applicable + peine maximale) ?", "gt_needs_birth": true, "seed": 1, "idx": 42}
+{"block": "noise", "query": "How do magnets work?", "gt_needs_birth": null, "seed": 1, "idx": 43}
+{"block": "noise", "query": "How do birds know where to migrate?", "gt_needs_birth": null, "seed": 1, "idx": 44}
+{"block": "noise", "query": "What's the difference between weather and climate?", "gt_needs_birth": null, "seed": 1, "idx": 45}
+{"block": "noise", "query": "How does a battery store energy?", "gt_needs_birth": null, "seed": 1, "idx": 46}
+{"block": "trap_a", "query": "Elucidate, with elaborate reasoning, the chronometric convention dividing the diurnal-nocturnal cycle into twenty-four discrete temporal segments.", "gt_needs_birth": false, "seed": 1, "idx": 47}
+{"block": "noise", "query": "Explain quantum entanglement to a 5-year-old.", "gt_needs_birth": null, "seed": 1, "idx": 48}
+{"block": "noise", "query": "What causes earthquakes?", "gt_needs_birth": null, "seed": 1, "idx": 49}
+{"block": "noise", "query": "Why do leaves change color in fall?", "gt_needs_birth": null, "seed": 1, "idx": 50}
+{"block": "noise", "query": "How does a battery store energy?", "gt_needs_birth": null, "seed": 1, "idx": 51}
+{"block": "true_need_med", "query": "What is the mechanism of aspirin in treating acute coronary syndrome?", "gt_needs_birth": true, "seed": 1, "idx": 52}
+{"block": "noise", "query": "Why does ice float on water?", "gt_needs_birth": null, "seed": 1, "idx": 53}
+{"block": "noise", "query": "What's the largest planet in the solar system?", "gt_needs_birth": null, "seed": 1, "idx": 54}
+{"block": "noise", "query": "What is gravity?", "gt_needs_birth": null, "seed": 1, "idx": 55}
+{"block": "noise", "query": "What's the speed of light?", "gt_needs_birth": null, "seed": 1, "idx": 56}
+{"block": "noise", "query": "How do birds know where to migrate?", "gt_needs_birth": null, "seed": 1, "idx": 57}
+{"block": "true_need_code", "query": "Implement matrix exponentiation for Fibonacci in Python with O(log n) complexity. Handle edge cases.", "gt_needs_birth": true, "seed": 1, "idx": 58}
+{"block": "noise", "query": "Why is the sky blue?", "gt_needs_birth": null, "seed": 1, "idx": 59}
+{"block": "noise", "query": "Why does ice float on water?", "gt_needs_birth": null, "seed": 1, "idx": 60}
+{"block": "true_need_med", "query": "Differential diagnosis for shortness of breath at rest in a patient with history of heart failure?", "gt_needs_birth": true, "seed": 1, "idx": 61}
+{"block": "noise", "query": "Explain quantum entanglement to a 5-year-old.", "gt_needs_birth": null, "seed": 1, "idx": 62}
+{"block": "true_need_med", "query": "Explain the pathophysiology of COPD and the rationale for bronchodilators.", "gt_needs_birth": true, "seed": 1, "idx": 63}
+{"block": "true_need_legal", "query": "Un employeur peut-il obligation de sécurité sans préavis si danger grave et imminent ? Citez le fondement juridique.", "gt_needs_birth": true, "seed": 1, "idx": 64}
+{"block": "noise", "query": "Explain quantum entanglement to a 5-year-old.", "gt_needs_birth": null, "seed": 1, "idx": 65}
+{"block": "true_need_legal", "query": "Selon l'article L4121-1 du Code du travail, quelles sont les conditions de obligation de sécurité ?", "gt_needs_birth": true, "seed": 1, "idx": 66}
+{"block": "true_need_code", "query": "Optimize this naive solution to the maximum flow in a network from O(n²) to O(n).", "gt_needs_birth": true, "seed": 1, "idx": 67}
+{"block": "true_need_code", "query": "Optimize this naive solution to the maximum flow in a network from O(n²) to O(n).", "gt_needs_birth": true, "seed": 1, "idx": 68}
+{"block": "noise", "query": "How do magnets work?", "gt_needs_birth": null, "seed": 1, "idx": 69}
+{"block": "noise", "query": "What's the speed of light?", "gt_needs_birth": null, "seed": 1, "idx": 70}
+{"block": "noise", "query": "Tell me a fun fact about octopuses.", "gt_needs_birth": null, "seed": 1, "idx": 71}
+{"block": "true_need_code", "query": "Implement a segment tree from scratch with range-sum query and point-update in O(log n) operations.", "gt_needs_birth": true, "seed": 1, "idx": 72}
+{"block": "true_need_legal", "query": "Sanctions encourues pour recel selon le Code civil (article applicable + peine maximale) ?", "gt_needs_birth": true, "seed": 1, "idx": 73}
+{"block": "noise", "query": "Why is the sky blue?", "gt_needs_birth": null, "seed": 1, "idx": 74}
+{"block": "noise", "query": "How do plants make food?", "gt_needs_birth": null, "seed": 1, "idx": 75}
+{"block": "noise", "query": "What's the difference between weather and climate?", "gt_needs_birth": null, "seed": 1, "idx": 76}
+{"block": "true_need_code", "query": "Write a function that solves the convex hull of a point set. Use Graham scan.", "gt_needs_birth": true, "seed": 1, "idx": 77}
+{"block": "noise", "query": "Tell me a fun fact about octopuses.", "gt_needs_birth": null, "seed": 1, "idx": 78}
+{"block": "noise", "query": "What causes earthquakes?", "gt_needs_birth": null, "seed": 1, "idx": 79}
+{"block": "true_need_legal", "query": "Un employeur peut-il obligation de sécurité sans préavis si danger grave et imminent ? Citez le fondement juridique.", "gt_needs_birth": true, "seed": 1, "idx": 80}
+{"block": "noise", "query": "What causes earthquakes?", "gt_needs_birth": null, "seed": 1, "idx": 81}
+{"block": "true_need_legal", "query": "Quelle est la procédure pour qualification de violences volontaires en cas de flagrance en droit français ?", "gt_needs_birth": true, "seed": 1, "idx": 82}
+{"block": "true_need_med", "query": "What is the mechanism of aspirin in treating acute coronary syndrome?", "gt_needs_birth": true, "seed": 1, "idx": 83}
+{"block": "noise", "query": "What's the difference between weather and climate?", "gt_needs_birth": null, "seed": 1, "idx": 84}
+{"block": "noise", "query": "How does a battery store energy?", "gt_needs_birth": null, "seed": 1, "idx": 85}
+{"block": "true_need_code", "query": "Optimize this naive solution to the maximum flow in a network from O(n²) to O(n).", "gt_needs_birth": true, "seed": 1, "idx": 86}
+{"block": "noise", "query": "Tell me a fun fact about octopuses.", "gt_needs_birth": null, "seed": 1, "idx": 87}
+{"block": "noise", "query": "What is gravity?", "gt_needs_birth": null, "seed": 1, "idx": 88}
+{"block": "trap_b", "query": "La perception sensorielle de la lumière solaire par un sujet de droit nécessite-t-elle un titre réglementaire ?", "gt_needs_birth": false, "seed": 1, "idx": 89}
+{"block": "true_need_code", "query": "Implement matrix exponentiation for Fibonacci in Python with O(log n) complexity. Handle edge cases.", "gt_needs_birth": true, "seed": 1, "idx": 90}
+{"block": "noise", "query": "How does a rainbow form?", "gt_needs_birth": null, "seed": 1, "idx": 91}
+{"block": "noise", "query": "Why do we dream?", "gt_needs_birth": null, "seed": 1, "idx": 92}
+{"block": "noise", "query": "What is photosynthesis in one sentence?", "gt_needs_birth": null, "seed": 1, "idx": 93}
+{"block": "noise", "query": "Explain quantum entanglement to a 5-year-old.", "gt_needs_birth": null, "seed": 1, "idx": 94}
+{"block": "true_need_med", "query": "Differential diagnosis for abdominal pain and vomiting in a patient with history of alcohol use?", "gt_needs_birth": true, "seed": 1, "idx": 95}
+{"block": "noise", "query": "What's the difference between weather and climate?", "gt_needs_birth": null, "seed": 1, "idx": 96}
+{"block": "true_need_legal", "query": "Selon l'article 1240 du Code civil, quelles sont les conditions de engagement de responsabilité civile ?", "gt_needs_birth": true, "seed": 1, "idx": 97}
+{"block": "true_need_code", "query": "Write a function that solves the maximum flow in a network. Use Ford-Fulkerson with BFS (Edmonds-Karp).", "gt_needs_birth": true, "seed": 1, "idx": 98}
+{"block": "noise", "query": "Why is the sky blue?", "gt_needs_birth": null, "seed": 1, "idx": 99}
+{"block": "noise", "query": "How does a battery store energy?", "gt_needs_birth": null, "seed": 1, "idx": 100}
+{"block": "noise", "query": "Why is the sky blue?", "gt_needs_birth": null, "seed": 1, "idx": 101}
+{"block": "noise", "query": "Tell me a fun fact about octopuses.", "gt_needs_birth": null, "seed": 1, "idx": 102}
+{"block": "noise", "query": "How does a rainbow form?", "gt_needs_birth": null, "seed": 1, "idx": 103}
+{"block": "true_need_code", "query": "Given a string of length n, produce all distinct substrings. Constraints: using a suffix automaton.", "gt_needs_birth": true, "seed": 1, "idx": 104}
+{"block": "true_need_legal", "query": "Selon l'article 222-7 du Code pénal, quelles sont les conditions de qualification de violences volontaires ?", "gt_needs_birth": true, "seed": 1, "idx": 105}
+{"block": "noise", "query": "Why do we get goosebumps?", "gt_needs_birth": null, "seed": 1, "idx": 106}
+{"block": "noise", "query": "Why is the sky blue?", "gt_needs_birth": null, "seed": 1, "idx": 107}
+{"block": "noise", "query": "Why is the sky blue?", "gt_needs_birth": null, "seed": 1, "idx": 108}
+{"block": "true_need_med", "query": "What is the mechanism of beta-blocker in treating hypertension?", "gt_needs_birth": true, "seed": 1, "idx": 109}
+{"block": "trap_b", "query": "La marche bipède sur la voie publique est-elle conditionnée à une déclaration préalable en préfecture ?", "gt_needs_birth": false, "seed": 1, "idx": 110}
+{"block": "true_need_legal", "query": "Un employeur peut-il licenciement pour motif personnel sans préavis si faute grave ? Citez le fondement juridique.", "gt_needs_birth": true, "seed": 1, "idx": 111}
+{"block": "noise", "query": "How do plants make food?", "gt_needs_birth": null, "seed": 1, "idx": 112}
+{"block": "noise", "query": "Tell me a fun fact about octopuses.", "gt_needs_birth": null, "seed": 1, "idx": 113}
+{"block": "true_need_code", "query": "Given a stream of integers, produce the running median. Constraints: O(log n) per insertion.", "gt_needs_birth": true, "seed": 1, "idx": 114}
+{"block": "noise", "query": "What is gravity?", "gt_needs_birth": null, "seed": 1, "idx": 115}
+{"block": "noise", "query": "Why does ice float on water?", "gt_needs_birth": null, "seed": 1, "idx": 116}
+{"block": "noise", "query": "What is gravity?", "gt_needs_birth": null, "seed": 1, "idx": 117}
+{"block": "noise", "query": "What is photosynthesis in one sentence?", "gt_needs_birth": null, "seed": 1, "idx": 118}
+{"block": "true_need_med", "query": "What is the mechanism of metformin in treating type 2 diabetes?", "gt_needs_birth": true, "seed": 1, "idx": 119}
+{"block": "noise", "query": "How do plants make food?", "gt_needs_birth": null, "seed": 1, "idx": 120}
+{"block": "noise", "query": "How does a battery store energy?", "gt_needs_birth": null, "seed": 1, "idx": 121}
+{"block": "noise", "query": "How does WiFi work, briefly?", "gt_needs_birth": null, "seed": 1, "idx": 122}
+{"block": "noise", "query": "What causes earthquakes?", "gt_needs_birth": null, "seed": 1, "idx": 123}
+{"block": "true_need_code", "query": "Write a function that solves the maximum flow in a network. Use Ford-Fulkerson with BFS (Edmonds-Karp).", "gt_needs_birth": true, "seed": 1, "idx": 124}
+{"block": "noise", "query": "How does a battery store energy?", "gt_needs_birth": null, "seed": 1, "idx": 125}
+{"block": "true_need_med", "query": "What is the mechanism of omeprazole in treating GERD?", "gt_needs_birth": true, "seed": 1, "idx": 126}
+{"block": "noise", "query": "How do magnets work?", "gt_needs_birth": null, "seed": 1, "idx": 127}
+{"block": "true_need_legal", "query": "Selon l'article 222-7 du Code pénal, quelles sont les conditions de qualification de violences volontaires ?", "gt_needs_birth": true, "seed": 1, "idx": 128}
+{"block": "noise", "query": "What's the speed of light?", "gt_needs_birth": null, "seed": 1, "idx": 129}
+{"block": "true_need_code", "query": "Write a function that solves k-th smallest element in an unsorted array. Use quickselect with median-of-medians.", "gt_needs_birth": true, "seed": 1, "idx": 130}
+{"block": "noise", "query": "How do plants make food?", "gt_needs_birth": null, "seed": 1, "idx": 131}
+{"block": "noise", "query": "What's the largest planet in the solar system?", "gt_needs_birth": null, "seed": 1, "idx": 132}
+{"block": "true_need_med", "query": "Explain the pathophysiology of asthma and the rationale for inhaled corticosteroids.", "gt_needs_birth": true, "seed": 1, "idx": 133}
+{"block": "true_need_code", "query": "Optimize this naive solution to longest palindromic substring from O(n²) to O(n log n).", "gt_needs_birth": true, "seed": 1, "idx": 134}
+{"block": "noise", "query": "Explain quantum entanglement to a 5-year-old.", "gt_needs_birth": null, "seed": 1, "idx": 135}
+{"block": "noise", "query": "How does WiFi work, briefly?", "gt_needs_birth": null, "seed": 1, "idx": 136}
+{"block": "true_need_legal", "query": "Sanctions encourues pour recel selon le Code civil (article applicable + peine maximale) ?", "gt_needs_birth": true, "seed": 1, "idx": 137}
+{"block": "noise", "query": "Explain quantum entanglement to a 5-year-old.", "gt_needs_birth": null, "seed": 1, "idx": 138}
+{"block": "true_need_code", "query": "Given a stream of integers, produce the running median. Constraints: O(log n) per insertion.", "gt_needs_birth": true, "seed": 1, "idx": 139}
+{"block": "noise", "query": "What's the difference between weather and climate?", "gt_needs_birth": null, "seed": 1, "idx": 140}
+{"block": "noise", "query": "Tell me a fun fact about octopuses.", "gt_needs_birth": null, "seed": 1, "idx": 141}
+{"block": "true_need_med", "query": "Differential diagnosis for sudden severe headache in a patient with history of hypertension?", "gt_needs_birth": true, "seed": 1, "idx": 142}
+{"block": "noise", "query": "How does a rainbow form?", "gt_needs_birth": null, "seed": 1, "idx": 143}
+{"block": "true_need_legal", "query": "Différencier caducité et résolution en droit des contrats.", "gt_needs_birth": true, "seed": 1, "idx": 144}
+{"block": "true_need_legal", "query": "Différencier licenciement économique et licenciement personnel en droit social.", "gt_needs_birth": true, "seed": 1, "idx": 145}
+{"block": "true_need_med", "query": "What is the mechanism of omeprazole in treating GERD?", "gt_needs_birth": true, "seed": 1, "idx": 146}
+{"block": "noise", "query": "Explain quantum entanglement to a 5-year-old.", "gt_needs_birth": null, "seed": 1, "idx": 147}
+{"block": "noise", "query": "Why do leaves change color in fall?", "gt_needs_birth": null, "seed": 1, "idx": 148}
+{"block": "noise", "query": "Why is the ocean salty?", "gt_needs_birth": null, "seed": 1, "idx": 149}
+{"block": "true_need_code", "query": "Implement the KMP string matching algorithm in Python with O(n+m) complexity. Handle edge cases.", "gt_needs_birth": true, "seed": 1, "idx": 150}
+{"block": "true_need_med", "query": "Differential diagnosis for palpitations in a patient with history of thyroid disease?", "gt_needs_birth": true, "seed": 1, "idx": 151}
+{"block": "true_need_med", "query": "A 72-year-old patient presents with shortness of breath at rest. ECG shows left bundle branch block. What is the most likely diagnosis and immediate management?", "gt_needs_birth": true, "seed": 1, "idx": 152}
+{"block": "noise", "query": "How do magnets work?", "gt_needs_birth": null, "seed": 1, "idx": 153}
+{"block": "noise", "query": "Tell me a fun fact about octopuses.", "gt_needs_birth": null, "seed": 1, "idx": 154}
+{"block": "true_need_legal", "query": "Selon l'article 1146 du Code civil, quelles sont les conditions de mise en demeure ?", "gt_needs_birth": true, "seed": 1, "idx": 155}
+{"block": "true_need_legal", "query": "Quelle est la procédure pour licenciement pour motif personnel en cas de rupture conventionnelle en droit français ?", "gt_needs_birth": true, "seed": 1, "idx": 156}
+{"block": "true_need_legal", "query": "Un employeur peut-il obligation de sécurité sans préavis si danger grave et imminent ? Citez le fondement juridique.", "gt_needs_birth": true, "seed": 1, "idx": 157}
+{"block": "noise", "query": "What is gravity?", "gt_needs_birth": null, "seed": 1, "idx": 158}
+{"block": "true_need_code", "query": "Implement matrix exponentiation for Fibonacci in Python with O(log n) complexity. Handle edge cases.", "gt_needs_birth": true, "seed": 1, "idx": 159}
+{"block": "true_need_code", "query": "Write a function that solves the maximum flow in a network. Use Ford-Fulkerson with BFS (Edmonds-Karp).", "gt_needs_birth": true, "seed": 1, "idx": 160}
+{"block": "noise", "query": "What is photosynthesis in one sentence?", "gt_needs_birth": null, "seed": 1, "idx": 161}
+{"block": "noise", "query": "Why do leaves change color in fall?", "gt_needs_birth": null, "seed": 1, "idx": 162}
+{"block": "true_need_med", "query": "What is the mechanism of omeprazole in treating GERD?", "gt_needs_birth": true, "seed": 1, "idx": 163}
+{"block": "noise", "query": "How do plants make food?", "gt_needs_birth": null, "seed": 1, "idx": 164}
+{"block": "noise", "query": "How do birds know where to migrate?", "gt_needs_birth": null, "seed": 1, "idx": 165}
+{"block": "trap_a", "query": "Render a thoroughly elaborated explication concerning the digestive metabolization of polysaccharide-rich dietary intake within the gastric environment.", "gt_needs_birth": false, "seed": 1, "idx": 166}
+{"block": "noise", "query": "How does a rainbow form?", "gt_needs_birth": null, "seed": 1, "idx": 167}
+{"block": "noise", "query": "What's the largest planet in the solar system?", "gt_needs_birth": null, "seed": 1, "idx": 168}
+{"block": "true_need_legal", "query": "Quelle est la procédure pour qualification de violences volontaires en cas de flagrance en droit français ?", "gt_needs_birth": true, "seed": 1, "idx": 169}
+{"block": "noise", "query": "How do magnets work?", "gt_needs_birth": null, "seed": 1, "idx": 170}
+{"block": "noise", "query": "What's the speed of light?", "gt_needs_birth": null, "seed": 1, "idx": 171}
+{"block": "noise", "query": "Why do we get goosebumps?", "gt_needs_birth": null, "seed": 1, "idx": 172}
+{"block": "true_need_legal", "query": "Un employeur peut-il mise en demeure sans préavis si clause résolutoire ? Citez le fondement juridique.", "gt_needs_birth": true, "seed": 1, "idx": 173}
+{"block": "true_need_legal", "query": "Différencier licenciement économique et licenciement personnel en droit social.", "gt_needs_birth": true, "seed": 1, "idx": 174}
+{"block": "true_need_code", "query": "Write a function that solves the convex hull of a point set. Use Graham scan.", "gt_needs_birth": true, "seed": 1, "idx": 175}
+{"block": "noise", "query": "How do plants make food?", "gt_needs_birth": null, "seed": 1, "idx": 176}
+{"block": "noise", "query": "How does WiFi work, briefly?", "gt_needs_birth": null, "seed": 1, "idx": 177}
+{"block": "trap_b", "query": "L'ingestion alimentaire à domicile relève-t-elle du domaine réservé du droit de la consommation ?", "gt_needs_birth": false, "seed": 1, "idx": 178}
+{"block": "noise", "query": "What's the difference between weather and climate?", "gt_needs_birth": null, "seed": 1, "idx": 179}
+{"block": "true_need_med", "query": "Interpret this ABG: pH 7.28, pCO2 55, HCO3 23. What is the acid-base disturbance and likely cause?", "gt_needs_birth": true, "seed": 1, "idx": 180}
+{"block": "noise", "query": "How does WiFi work, briefly?", "gt_needs_birth": null, "seed": 1, "idx": 181}
+{"block": "true_need_legal", "query": "Un employeur peut-il mise en demeure sans préavis si clause résolutoire ? Citez le fondement juridique.", "gt_needs_birth": true, "seed": 1, "idx": 182}
+{"block": "true_need_med", "query": "Interpret this ABG: pH 7.10, pCO2 30, HCO3 12. What is the acid-base disturbance and likely cause?", "gt_needs_birth": true, "seed": 1, "idx": 183}
+{"block": "noise", "query": "Why is the ocean salty?", "gt_needs_birth": null, "seed": 1, "idx": 184}
+{"block": "true_need_legal", "query": "Sanctions encourues pour travail dissimulé selon le Code du travail (article applicable + peine maximale) ?", "gt_needs_birth": true, "seed": 1, "idx": 185}
+{"block": "true_need_med", "query": "A 45-year-old patient presents with sudden severe headache. ECG shows normal sinus rhythm. What is the most likely diagnosis and immediate management?", "gt_needs_birth": true, "seed": 1, "idx": 186}
+{"block": "true_need_code", "query": "Implement a balanced BST insertion (AVL) in Python with O(log n) complexity. Handle edge cases.", "gt_needs_birth": true, "seed": 1, "idx": 187}
+{"block": "noise", "query": "What is photosynthesis in one sentence?", "gt_needs_birth": null, "seed": 1, "idx": 188}
+{"block": "noise", "query": "Why do we get goosebumps?", "gt_needs_birth": null, "seed": 1, "idx": 189}
+{"block": "true_need_code", "query": "Optimize this naive solution to the convex hull of a point set from O(n²) to O(n log n).", "gt_needs_birth": true, "seed": 1, "idx": 190}
+{"block": "noise", "query": "How do birds know where to migrate?", "gt_needs_birth": null, "seed": 1, "idx": 191}
+{"block": "noise", "query": "Why do leaves change color in fall?", "gt_needs_birth": null, "seed": 1, "idx": 192}
+{"block": "true_need_legal", "query": "Différencier contrat unilatéral et contrat synallagmatique en droit des obligations.", "gt_needs_birth": true, "seed": 1, "idx": 193}
+{"block": "true_need_legal", "query": "Quelle est la procédure pour mise en demeure en cas de inexécution contractuelle en droit français ?", "gt_needs_birth": true, "seed": 1, "idx": 194}
+{"block": "noise", "query": "Why is the ocean salty?", "gt_needs_birth": null, "seed": 1, "idx": 195}
+{"block": "noise", "query": "How do magnets work?", "gt_needs_birth": null, "seed": 1, "idx": 196}
+{"block": "true_need_code", "query": "Implement a treap from scratch with split, merge, k-th order operations.", "gt_needs_birth": true, "seed": 1, "idx": 197}
+{"block": "noise", "query": "What's the speed of light?", "gt_needs_birth": null, "seed": 1, "idx": 198}
+{"block": "noise", "query": "Why is the ocean salty?", "gt_needs_birth": null, "seed": 1, "idx": 199}
+{"block": "noise", "query": "What's the largest planet in the solar system?", "gt_needs_birth": null, "seed": 1, "idx": 200}
+{"block": "noise", "query": "Why does ice float on water?", "gt_needs_birth": null, "seed": 1, "idx": 201}
+{"block": "noise", "query": "Why is the ocean salty?", "gt_needs_birth": null, "seed": 1, "idx": 202}
+{"block": "noise", "query": "Why do leaves change color in fall?", "gt_needs_birth": null, "seed": 1, "idx": 203}
+{"block": "true_need_code", "query": "Optimize this naive solution to the convex hull of a point set from O(n²) to O(n log n).", "gt_needs_birth": true, "seed": 1, "idx": 204}
+{"block": "true_need_legal", "query": "Sanctions encourues pour faux et usage de faux selon le Code civil (article applicable + peine maximale) ?", "gt_needs_birth": true, "seed": 1, "idx": 205}
+{"block": "true_need_code", "query": "Write a function that solves longest palindromic substring. Use Manacher's algorithm.", "gt_needs_birth": true, "seed": 1, "idx": 206}
+{"block": "noise", "query": "Why is the sky blue?", "gt_needs_birth": null, "seed": 1, "idx": 207}
+{"block": "noise", "query": "What's the largest planet in the solar system?", "gt_needs_birth": null, "seed": 1, "idx": 208}
+{"block": "noise", "query": "How does a rainbow form?", "gt_needs_birth": null, "seed": 1, "idx": 209}
+{"block": "true_need_legal", "query": "Différencier caducité et résolution en droit des contrats.", "gt_needs_birth": true, "seed": 1, "idx": 210}
+{"block": "true_need_code", "query": "Implement matrix exponentiation for Fibonacci in Python with O(log n) complexity. Handle edge cases.", "gt_needs_birth": true, "seed": 1, "idx": 211}
+{"block": "true_need_code", "query": "Optimize this naive solution to the longest increasing subsequence from O(n²) to O(sqrt(n)).", "gt_needs_birth": true, "seed": 1, "idx": 212}
+{"block": "noise", "query": "What's the speed of light?", "gt_needs_birth": null, "seed": 1, "idx": 213}
+{"block": "noise", "query": "Tell me a fun fact about octopuses.", "gt_needs_birth": null, "seed": 1, "idx": 214}
+{"block": "noise", "query": "What is gravity?", "gt_needs_birth": null, "seed": 1, "idx": 215}
+{"block": "trap_a", "query": "Furnish a comprehensive disquisition on the precise method whereby aqueous matter undergoes vaporous transition under conditions of sustained thermal elevation.", "gt_needs_birth": false, "seed": 1, "idx": 216}
+{"block": "true_need_code", "query": "Implement a treap from scratch with split, merge, k-th order operations.", "gt_needs_birth": true, "seed": 1, "idx": 217}
+{"block": "noise", "query": "How does a rainbow form?", "gt_needs_birth": null, "seed": 1, "idx": 218}
+{"block": "noise", "query": "How do plants make food?", "gt_needs_birth": null, "seed": 1, "idx": 219}
+{"block": "noise", "query": "What is gravity?", "gt_needs_birth": null, "seed": 1, "idx": 220}
+{"block": "true_need_med", "query": "Explain the pathophysiology of sepsis and the rationale for broad-spectrum antibiotics.", "gt_needs_birth": true, "seed": 1, "idx": 221}
+{"block": "noise", "query": "How does a battery store energy?", "gt_needs_birth": null, "seed": 1, "idx": 222}
+{"block": "noise", "query": "Why do leaves change color in fall?", "gt_needs_birth": null, "seed": 1, "idx": 223}
+{"block": "noise", "query": "How does a battery store energy?", "gt_needs_birth": null, "seed": 1, "idx": 224}
+{"block": "noise", "query": "Explain quantum entanglement to a 5-year-old.", "gt_needs_birth": null, "seed": 1, "idx": 225}
+{"block": "noise", "query": "How does a battery store energy?", "gt_needs_birth": null, "seed": 1, "idx": 226}
+{"block": "noise", "query": "What's the difference between weather and climate?", "gt_needs_birth": null, "seed": 1, "idx": 227}
+{"block": "true_need_legal", "query": "Un employeur peut-il engagement de responsabilité civile sans préavis si force majeure ? Citez le fondement juridique.", "gt_needs_birth": true, "seed": 1, "idx": 228}
+{"block": "true_need_legal", "query": "Sanctions encourues pour faux et usage de faux selon le Code civil (article applicable + peine maximale) ?", "gt_needs_birth": true, "seed": 1, "idx": 229}
+{"block": "noise", "query": "Why do we get goosebumps?", "gt_needs_birth": null, "seed": 1, "idx": 230}
+{"block": "noise", "query": "Why do we get goosebumps?", "gt_needs_birth": null, "seed": 1, "idx": 231}
+{"block": "noise", "query": "Why does ice float on water?", "gt_needs_birth": null, "seed": 1, "idx": 232}
+{"block": "noise", "query": "Why is the ocean salty?", "gt_needs_birth": null, "seed": 1, "idx": 233}
+{"block": "true_need_med", "query": "A 30-year-old patient presents with palpitations. ECG shows atrial fibrillation with rapid response. What is the most likely diagnosis and immediate management?", "gt_needs_birth": true, "seed": 1, "idx": 234}
+{"block": "true_need_legal", "query": "Selon l'article 1240 du Code civil, quelles sont les conditions de engagement de responsabilité civile ?", "gt_needs_birth": true, "seed": 1, "idx": 235}
+{"block": "noise", "query": "What causes earthquakes?", "gt_needs_birth": null, "seed": 1, "idx": 236}
+{"block": "noise", "query": "How do magnets work?", "gt_needs_birth": null, "seed": 1, "idx": 237}
+{"block": "true_need_code", "query": "Implement the Bellman-Ford shortest path in Python with O(VE) complexity. Handle edge cases.", "gt_needs_birth": true, "seed": 1, "idx": 238}
+{"block": "noise", "query": "How does WiFi work, briefly?", "gt_needs_birth": null, "seed": 1, "idx": 239}
+{"block": "true_need_med", "query": "Explain the pathophysiology of diabetic ketoacidosis and the rationale for insulin and fluids.", "gt_needs_birth": true, "seed": 1, "idx": 240}
+{"block": "noise", "query": "How does WiFi work, briefly?", "gt_needs_birth": null, "seed": 1, "idx": 241}
+{"block": "noise", "query": "Why do we dream?", "gt_needs_birth": null, "seed": 1, "idx": 242}
+{"block": "true_need_legal", "query": "Un employeur peut-il qualification de violences volontaires sans préavis si légitime défense ? Citez le fondement juridique.", "gt_needs_birth": true, "seed": 1, "idx": 243}
+{"block": "trap_b", "query": "Le fait de respirer dans un espace public ouvert engage-t-il la responsabilité civile pour trouble de voisinage ?", "gt_needs_birth": false, "seed": 1, "idx": 244}
+{"block": "noise", "query": "What's the speed of light?", "gt_needs_birth": null, "seed": 1, "idx": 245}
+{"block": "noise", "query": "What's the speed of light?", "gt_needs_birth": null, "seed": 1, "idx": 246}
+{"block": "noise", "query": "What's the speed of light?", "gt_needs_birth": null, "seed": 1, "idx": 247}
+{"block": "noise", "query": "Why do we get goosebumps?", "gt_needs_birth": null, "seed": 1, "idx": 248}
+{"block": "noise", "query": "How does a rainbow form?", "gt_needs_birth": null, "seed": 1, "idx": 249}
+{"block": "noise", "query": "How does a battery store energy?", "gt_needs_birth": null, "seed": 1, "idx": 250}
+{"block": "noise", "query": "Tell me a fun fact about octopuses.", "gt_needs_birth": null, "seed": 1, "idx": 251}
+{"block": "true_need_legal", "query": "Différencier licenciement économique et licenciement personnel en droit social.", "gt_needs_birth": true, "seed": 1, "idx": 252}
+{"block": "noise", "query": "Explain quantum entanglement to a 5-year-old.", "gt_needs_birth": null, "seed": 1, "idx": 253}
+{"block": "noise", "query": "What's the difference between weather and climate?", "gt_needs_birth": null, "seed": 1, "idx": 254}
+{"block": "noise", "query": "What is photosynthesis in one sentence?", "gt_needs_birth": null, "seed": 1, "idx": 255}
+{"block": "noise", "query": "How do plants make food?", "gt_needs_birth": null, "seed": 1, "idx": 256}
+{"block": "noise", "query": "Why do we dream?", "gt_needs_birth": null, "seed": 1, "idx": 257}
+{"block": "noise", "query": "How does WiFi work, briefly?", "gt_needs_birth": null, "seed": 1, "idx": 258}
+{"block": "true_need_code", "query": "Implement a Fibonacci heap from scratch with insert, extract-min, decrease-key in amortized O(log n) operations.", "gt_needs_birth": true, "seed": 1, "idx": 259}
+{"block": "true_need_code", "query": "Implement a segment tree from scratch with range-sum query and point-update in O(log n) operations.", "gt_needs_birth": true, "seed": 1, "idx": 260}
+{"block": "noise", "query": "Tell me a fun fact about octopuses.", "gt_needs_birth": null, "seed": 1, "idx": 261}
+{"block": "noise", "query": "Why do we get goosebumps?", "gt_needs_birth": null, "seed": 1, "idx": 262}
+{"block": "noise", "query": "Why does ice float on water?", "gt_needs_birth": null, "seed": 1, "idx": 263}
+{"block": "true_need_legal", "query": "Un employeur peut-il mise en demeure sans préavis si clause résolutoire ? Citez le fondement juridique.", "gt_needs_birth": true, "seed": 1, "idx": 264}
+{"block": "true_need_med", "query": "What is the mechanism of beta-blocker in treating hypertension?", "gt_needs_birth": true, "seed": 1, "idx": 265}
+{"block": "noise", "query": "What causes earthquakes?", "gt_needs_birth": null, "seed": 1, "idx": 266}
+{"block": "true_need_code", "query": "Write a function that solves k-th smallest element in an unsorted array. Use quickselect with median-of-medians.", "gt_needs_birth": true, "seed": 1, "idx": 267}
+{"block": "noise", "query": "Why is the sky blue?", "gt_needs_birth": null, "seed": 1, "idx": 268}
+{"block": "noise", "query": "How do birds know where to migrate?", "gt_needs_birth": null, "seed": 1, "idx": 269}
+{"block": "noise", "query": "What causes earthquakes?", "gt_needs_birth": null, "seed": 1, "idx": 270}
+{"block": "noise", "query": "What is photosynthesis in one sentence?", "gt_needs_birth": null, "seed": 1, "idx": 271}
+{"block": "true_need_code", "query": "Given a stream of integers, produce the running median. Constraints: O(log n) per insertion.", "gt_needs_birth": true, "seed": 1, "idx": 272}
+{"block": "noise", "query": "Why do we get goosebumps?", "gt_needs_birth": null, "seed": 1, "idx": 273}
+{"block": "noise", "query": "Why does ice float on water?", "gt_needs_birth": null, "seed": 1, "idx": 274}
+{"block": "noise", "query": "Why do leaves change color in fall?", "gt_needs_birth": null, "seed": 1, "idx": 275}
+{"block": "true_need_legal", "query": "Selon l'article 1146 du Code civil, quelles sont les conditions de mise en demeure ?", "gt_needs_birth": true, "seed": 1, "idx": 276}
+{"block": "noise", "query": "What causes earthquakes?", "gt_needs_birth": null, "seed": 1, "idx": 277}
+{"block": "true_need_med", "query": "A 30-year-old patient presents with palpitations. ECG shows atrial fibrillation with rapid response. What is the most likely diagnosis and immediate management?", "gt_needs_birth": true, "seed": 1, "idx": 278}
+{"block": "true_need_med", "query": "Interpret this ABG: pH 7.45, pCO2 30, HCO3 22. What is the acid-base disturbance and likely cause?", "gt_needs_birth": true, "seed": 1, "idx": 279}
+{"block": "noise", "query": "Why do we dream?", "gt_needs_birth": null, "seed": 1, "idx": 280}
+{"block": "true_need_med", "query": "A 68-year-old patient presents with chest pain radiating to left arm. ECG shows ST elevation in leads II, III, aVF. What is the most likely diagnosis and immediate management?", "gt_needs_birth": true, "seed": 1, "idx": 281}
+{"block": "noise", "query": "How does a rainbow form?", "gt_needs_birth": null, "seed": 1, "idx": 282}
+{"block": "noise", "query": "What is gravity?", "gt_needs_birth": null, "seed": 1, "idx": 283}
+{"block": "true_need_legal", "query": "Différencier contrat unilatéral et contrat synallagmatique en droit des obligations.", "gt_needs_birth": true, "seed": 1, "idx": 284}
+{"block": "noise", "query": "What is photosynthesis in one sentence?", "gt_needs_birth": null, "seed": 1, "idx": 285}
+{"block": "noise", "query": "How do birds know where to migrate?", "gt_needs_birth": null, "seed": 1, "idx": 286}
+{"block": "noise", "query": "Why do we get goosebumps?", "gt_needs_birth": null, "seed": 1, "idx": 287}
+{"block": "noise", "query": "Why do leaves change color in fall?", "gt_needs_birth": null, "seed": 1, "idx": 288}
+{"block": "noise", "query": "What causes earthquakes?", "gt_needs_birth": null, "seed": 1, "idx": 289}
+{"block": "noise", "query": "What's the largest planet in the solar system?", "gt_needs_birth": null, "seed": 1, "idx": 290}
+{"block": "noise", "query": "How does a battery store energy?", "gt_needs_birth": null, "seed": 1, "idx": 291}
+{"block": "noise", "query": "Explain quantum entanglement to a 5-year-old.", "gt_needs_birth": null, "seed": 1, "idx": 292}
+{"block": "noise", "query": "What's the speed of light?", "gt_needs_birth": null, "seed": 1, "idx": 293}
+{"block": "noise", "query": "What's the difference between weather and climate?", "gt_needs_birth": null, "seed": 1, "idx": 294}
+{"block": "noise", "query": "How does a rainbow form?", "gt_needs_birth": null, "seed": 1, "idx": 295}
+{"block": "noise", "query": "Why do leaves change color in fall?", "gt_needs_birth": null, "seed": 1, "idx": 296}
+{"block": "noise", "query": "Why do we dream?", "gt_needs_birth": null, "seed": 1, "idx": 297}
+{"block": "noise", "query": "Why do we dream?", "gt_needs_birth": null, "seed": 1, "idx": 298}
+{"block": "true_need_med", "query": "Interpret this ABG: pH 7.28, pCO2 55, HCO3 23. What is the acid-base disturbance and likely cause?", "gt_needs_birth": true, "seed": 1, "idx": 299}
+{"block": "true_need_legal", "query": "Quelle est la procédure pour mise en demeure en cas de inexécution contractuelle en droit français ?", "gt_needs_birth": true, "seed": 1, "idx": 300}
+{"block": "noise", "query": "How does WiFi work, briefly?", "gt_needs_birth": null, "seed": 1, "idx": 301}
+{"block": "noise", "query": "What causes earthquakes?", "gt_needs_birth": null, "seed": 1, "idx": 302}
+{"block": "trap_a", "query": "Compose an extensive analytical narrative on the mechanistic basis of the precipitation phenomenon known colloquially as rainfall.", "gt_needs_birth": false, "seed": 1, "idx": 303}
+{"block": "noise", "query": "What causes earthquakes?", "gt_needs_birth": null, "seed": 1, "idx": 304}
+{"block": "noise", "query": "How do magnets work?", "gt_needs_birth": null, "seed": 1, "idx": 305}
+{"block": "noise", "query": "What is photosynthesis in one sentence?", "gt_needs_birth": null, "seed": 1, "idx": 306}
+{"block": "noise", "query": "Tell me a fun fact about octopuses.", "gt_needs_birth": null, "seed": 1, "idx": 307}
+{"block": "true_need_med", "query": "Explain the pathophysiology of diabetic ketoacidosis and the rationale for insulin and fluids.", "gt_needs_birth": true, "seed": 1, "idx": 308}
+{"block": "noise", "query": "What is gravity?", "gt_needs_birth": null, "seed": 1, "idx": 309}
+{"block": "noise", "query": "What is gravity?", "gt_needs_birth": null, "seed": 1, "idx": 310}
+{"block": "true_need_code", "query": "Implement a balanced BST insertion (AVL) in Python with O(log n) complexity. Handle edge cases.", "gt_needs_birth": true, "seed": 1, "idx": 311}
+{"block": "true_need_legal", "query": "Sanctions encourues pour faux et usage de faux selon le Code civil (article applicable + peine maximale) ?", "gt_needs_birth": true, "seed": 1, "idx": 312}
+{"block": "noise", "query": "How does WiFi work, briefly?", "gt_needs_birth": null, "seed": 1, "idx": 313}
+{"block": "noise", "query": "How does a rainbow form?", "gt_needs_birth": null, "seed": 1, "idx": 314}
+{"block": "noise", "query": "What is photosynthesis in one sentence?", "gt_needs_birth": null, "seed": 1, "idx": 315}
+{"block": "true_need_legal", "query": "Sanctions encourues pour recel selon le Code civil (article applicable + peine maximale) ?", "gt_needs_birth": true, "seed": 1, "idx": 316}
+{"block": "trap_a", "query": "Could you provide an extensive elucidation regarding the chromatic spectrum exhibited by the celestial sphere observable to inhabitants of terrestrial regions?", "gt_needs_birth": false, "seed": 1, "idx": 317}
+{"block": "noise", "query": "Why is the ocean salty?", "gt_needs_birth": null, "seed": 1, "idx": 318}
+{"block": "true_need_legal", "query": "Selon l'article L1232-1 du Code du travail, quelles sont les conditions de licenciement pour motif personnel ?", "gt_needs_birth": true, "seed": 1, "idx": 319}
+{"block": "true_need_legal", "query": "Selon l'article 1146 du Code civil, quelles sont les conditions de mise en demeure ?", "gt_needs_birth": true, "seed": 1, "idx": 320}
+{"block": "true_need_legal", "query": "Différencier vice du consentement et erreur substantielle en droit civil.", "gt_needs_birth": true, "seed": 1, "idx": 321}
+{"block": "true_need_legal", "query": "Quelle est la procédure pour licenciement pour motif personnel en cas de rupture conventionnelle en droit français ?", "gt_needs_birth": true, "seed": 1, "idx": 322}
+{"block": "noise", "query": "What's the difference between weather and climate?", "gt_needs_birth": null, "seed": 1, "idx": 323}
+{"block": "true_need_med", "query": "Interpret this ABG: pH 7.35, pCO2 40, HCO3 24. What is the acid-base disturbance and likely cause?", "gt_needs_birth": true, "seed": 1, "idx": 324}
+{"block": "noise", "query": "Why is the ocean salty?", "gt_needs_birth": null, "seed": 1, "idx": 325}
+{"block": "noise", "query": "Why does ice float on water?", "gt_needs_birth": null, "seed": 1, "idx": 326}
+{"block": "noise", "query": "How do magnets work?", "gt_needs_birth": null, "seed": 1, "idx": 327}
+{"block": "true_need_legal", "query": "Quelle est la procédure pour licenciement pour motif personnel en cas de rupture conventionnelle en droit français ?", "gt_needs_birth": true, "seed": 1, "idx": 328}
+{"block": "noise", "query": "How do birds know where to migrate?", "gt_needs_birth": null, "seed": 1, "idx": 329}
+{"block": "noise", "query": "Why do leaves change color in fall?", "gt_needs_birth": null, "seed": 1, "idx": 330}
+{"block": "noise", "query": "What is photosynthesis in one sentence?", "gt_needs_birth": null, "seed": 1, "idx": 331}
+{"block": "true_need_code", "query": "Implement the Bellman-Ford shortest path in Python with O(VE) complexity. Handle edge cases.", "gt_needs_birth": true, "seed": 1, "idx": 332}
+{"block": "noise", "query": "What is photosynthesis in one sentence?", "gt_needs_birth": null, "seed": 1, "idx": 333}
+{"block": "noise", "query": "How do plants make food?", "gt_needs_birth": null, "seed": 1, "idx": 334}
+{"block": "true_need_med", "query": "Interpret this ABG: pH 7.28, pCO2 55, HCO3 23. What is the acid-base disturbance and likely cause?", "gt_needs_birth": true, "seed": 1, "idx": 335}
+{"block": "true_need_med", "query": "Explain the pathophysiology of asthma and the rationale for inhaled corticosteroids.", "gt_needs_birth": true, "seed": 1, "idx": 336}
+{"block": "true_need_med", "query": "What is the mechanism of omeprazole in treating GERD?", "gt_needs_birth": true, "seed": 1, "idx": 337}
+{"block": "noise", "query": "How do birds know where to migrate?", "gt_needs_birth": null, "seed": 1, "idx": 338}
+{"block": "true_need_code", "query": "Optimize this naive solution to the maximum flow in a network from O(n²) to O(n).", "gt_needs_birth": true, "seed": 1, "idx": 339}
+{"block": "true_need_med", "query": "A 45-year-old patient presents with sudden severe headache. ECG shows normal sinus rhythm. What is the most likely diagnosis and immediate management?", "gt_needs_birth": true, "seed": 1, "idx": 340}
+{"block": "noise", "query": "How do plants make food?", "gt_needs_birth": null, "seed": 1, "idx": 341}
+{"block": "true_need_code", "query": "Implement a persistent array from scratch with append and historical-read in O(log n) operations.", "gt_needs_birth": true, "seed": 1, "idx": 342}
+{"block": "true_need_med", "query": "Explain the pathophysiology of atrial fibrillation and the rationale for anticoagulation.", "gt_needs_birth": true, "seed": 1, "idx": 343}
+{"block": "true_need_code", "query": "Optimize this naive solution to k-th smallest element in an unsorted array from O(n²) to O(n alpha(n)).", "gt_needs_birth": true, "seed": 1, "idx": 344}
+{"block": "noise", "query": "Why do we dream?", "gt_needs_birth": null, "seed": 1, "idx": 345}
+{"block": "true_need_med", "query": "Explain the pathophysiology of sepsis and the rationale for broad-spectrum antibiotics.", "gt_needs_birth": true, "seed": 1, "idx": 346}
+{"block": "noise", "query": "What is gravity?", "gt_needs_birth": null, "seed": 1, "idx": 347}
+{"block": "noise", "query": "How does WiFi work, briefly?", "gt_needs_birth": null, "seed": 1, "idx": 348}
+{"block": "noise", "query": "Why do we dream?", "gt_needs_birth": null, "seed": 1, "idx": 349}
+{"block": "noise", "query": "Why is the ocean salty?", "gt_needs_birth": null, "seed": 1, "idx": 350}
+{"block": "noise", "query": "Why is the sky blue?", "gt_needs_birth": null, "seed": 1, "idx": 351}
+{"block": "noise", "query": "How do magnets work?", "gt_needs_birth": null, "seed": 1, "idx": 352}
+{"block": "true_need_code", "query": "Implement the KMP string matching algorithm in Python with O(n+m) complexity. Handle edge cases.", "gt_needs_birth": true, "seed": 1, "idx": 353}
+{"block": "trap_a", "query": "Provide an exhaustive theoretical treatment of the kinematic principle wherein bodies of nonzero mass are subject to gravitational attraction toward planetary centroids.", "gt_needs_birth": false, "seed": 1, "idx": 354}
+{"block": "noise", "query": "Why does ice float on water?", "gt_needs_birth": null, "seed": 1, "idx": 355}
+{"block": "noise", "query": "How do magnets work?", "gt_needs_birth": null, "seed": 1, "idx": 356}
+{"block": "true_need_legal", "query": "Différencier caducité et résolution en droit des contrats.", "gt_needs_birth": true, "seed": 1, "idx": 357}
+{"block": "trap_b", "query": "La détention d'un état d'éveil mental constitue-t-elle une donnée à caractère personnel au sens du RGPD ?", "gt_needs_birth": false, "seed": 1, "idx": 358}
+{"block": "true_need_med", "query": "Interpret this ABG: pH 7.28, pCO2 55, HCO3 23. What is the acid-base disturbance and likely cause?", "gt_needs_birth": true, "seed": 1, "idx": 359}
+{"block": "noise", "query": "How does WiFi work, briefly?", "gt_needs_birth": null, "seed": 1, "idx": 360}
+{"block": "noise", "query": "What is gravity?", "gt_needs_birth": null, "seed": 1, "idx": 361}
+{"block": "true_need_code", "query": "Given a directed weighted graph, produce shortest path tree from source. Constraints: negative edges allowed (Bellman-Ford).", "gt_needs_birth": true, "seed": 1, "idx": 362}
+{"block": "noise", "query": "Why do we dream?", "gt_needs_birth": null, "seed": 1, "idx": 363}
+{"block": "noise", "query": "Why is the sky blue?", "gt_needs_birth": null, "seed": 1, "idx": 364}
+{"block": "noise", "query": "What's the speed of light?", "gt_needs_birth": null, "seed": 1, "idx": 365}
+{"block": "noise", "query": "Explain quantum entanglement to a 5-year-old.", "gt_needs_birth": null, "seed": 1, "idx": 366}
+{"block": "true_need_med", "query": "A 45-year-old patient presents with sudden severe headache. ECG shows normal sinus rhythm. What is the most likely diagnosis and immediate management?", "gt_needs_birth": true, "seed": 1, "idx": 367}
+{"block": "noise", "query": "Why is the sky blue?", "gt_needs_birth": null, "seed": 1, "idx": 368}
+{"block": "true_need_med", "query": "Explain the pathophysiology of diabetic ketoacidosis and the rationale for insulin and fluids.", "gt_needs_birth": true, "seed": 1, "idx": 369}
+{"block": "true_need_code", "query": "Write a function that solves the convex hull of a point set. Use Graham scan.", "gt_needs_birth": true, "seed": 1, "idx": 370}
+{"block": "true_need_med", "query": "A 72-year-old patient presents with shortness of breath at rest. ECG shows left bundle branch block. What is the most likely diagnosis and immediate management?", "gt_needs_birth": true, "seed": 1, "idx": 371}
+{"block": "noise", "query": "What's the largest planet in the solar system?", "gt_needs_birth": null, "seed": 1, "idx": 372}
+{"block": "true_need_code", "query": "Write a function that solves the longest increasing subsequence. Use patience sorting with binary search.", "gt_needs_birth": true, "seed": 1, "idx": 373}
+{"block": "true_need_code", "query": "Given a tree with n nodes, produce lowest common ancestor of two nodes. Constraints: O(1) query after O(n) preprocessing.", "gt_needs_birth": true, "seed": 1, "idx": 374}
+{"block": "trap_a", "query": "Expound systematically on the seasonal cyclicity governing arboreal foliage chromatic transitions during autumnal periods at temperate latitudes.", "gt_needs_birth": false, "seed": 1, "idx": 375}
+{"block": "noise", "query": "How does a rainbow form?", "gt_needs_birth": null, "seed": 1, "idx": 376}
+{"block": "noise", "query": "What's the largest planet in the solar system?", "gt_needs_birth": null, "seed": 1, "idx": 377}
+{"block": "true_need_legal", "query": "Différencier contrat unilatéral et contrat synallagmatique en droit des obligations.", "gt_needs_birth": true, "seed": 1, "idx": 378}
+{"block": "true_need_code", "query": "Optimize this naive solution to k-th smallest element in an unsorted array from O(n²) to O(n alpha(n)).", "gt_needs_birth": true, "seed": 1, "idx": 379}
+{"block": "noise", "query": "How do birds know where to migrate?", "gt_needs_birth": null, "seed": 1, "idx": 380}
+{"block": "noise", "query": "Why is the ocean salty?", "gt_needs_birth": null, "seed": 1, "idx": 381}
+{"block": "noise", "query": "What's the difference between weather and climate?", "gt_needs_birth": null, "seed": 1, "idx": 382}
+{"block": "noise", "query": "Why do leaves change color in fall?", "gt_needs_birth": null, "seed": 1, "idx": 383}
+{"block": "noise", "query": "Why does ice float on water?", "gt_needs_birth": null, "seed": 1, "idx": 384}
+{"block": "noise", "query": "Why does ice float on water?", "gt_needs_birth": null, "seed": 1, "idx": 385}
+{"block": "true_need_code", "query": "Optimize this naive solution to longest palindromic substring from O(n²) to O(n log n).", "gt_needs_birth": true, "seed": 1, "idx": 386}
+{"block": "true_need_code", "query": "Given a tree with n nodes, produce lowest common ancestor of two nodes. Constraints: O(1) query after O(n) preprocessing.", "gt_needs_birth": true, "seed": 1, "idx": 387}
+{"block": "true_need_legal", "query": "Selon l'article 222-7 du Code pénal, quelles sont les conditions de qualification de violences volontaires ?", "gt_needs_birth": true, "seed": 1, "idx": 388}
+{"block": "noise", "query": "Why do we dream?", "gt_needs_birth": null, "seed": 1, "idx": 389}
+{"block": "noise", "query": "Explain quantum entanglement to a 5-year-old.", "gt_needs_birth": null, "seed": 1, "idx": 390}
+{"block": "noise", "query": "Why do we get goosebumps?", "gt_needs_birth": null, "seed": 1, "idx": 391}
+{"block": "noise", "query": "Why do we dream?", "gt_needs_birth": null, "seed": 1, "idx": 392}
+{"block": "true_need_med", "query": "Differential diagnosis for palpitations in a patient with history of thyroid disease?", "gt_needs_birth": true, "seed": 1, "idx": 393}
+{"block": "noise", "query": "What's the largest planet in the solar system?", "gt_needs_birth": null, "seed": 1, "idx": 394}
+{"block": "trap_b", "query": "Le sommeil nocturne d'une personne physique constitue-t-il un acte juridique au sens de l'article 1100 du Code civil ?", "gt_needs_birth": false, "seed": 1, "idx": 395}
+{"block": "noise", "query": "What's the difference between weather and climate?", "gt_needs_birth": null, "seed": 1, "idx": 396}
+{"block": "noise", "query": "Tell me a fun fact about octopuses.", "gt_needs_birth": null, "seed": 1, "idx": 397}
+{"block": "trap_b", "query": "L'acte de cligner des paupières peut-il être qualifié de manifestation tacite de volonté en matière contractuelle ?", "gt_needs_birth": false, "seed": 1, "idx": 398}
+{"block": "noise", "query": "How do plants make food?", "gt_needs_birth": null, "seed": 1, "idx": 399}
+{"block": "noise", "query": "How do magnets work?", "gt_needs_birth": null, "seed": 1, "idx": 400}
+{"block": "trap_a", "query": "Detail comprehensively the locomotor methodology employed by quadrupedal felines in their natural pursuit of arboreal ascension.", "gt_needs_birth": false, "seed": 1, "idx": 401}
+{"block": "noise", "query": "How do birds know where to migrate?", "gt_needs_birth": null, "seed": 1, "idx": 402}
+{"block": "true_need_med", "query": "A 30-year-old patient presents with palpitations. ECG shows atrial fibrillation with rapid response. What is the most likely diagnosis and immediate management?", "gt_needs_birth": true, "seed": 1, "idx": 403}
+{"block": "true_need_med", "query": "Explain the pathophysiology of atrial fibrillation and the rationale for anticoagulation.", "gt_needs_birth": true, "seed": 1, "idx": 404}
+{"block": "true_need_med", "query": "Differential diagnosis for palpitations in a patient with history of thyroid disease?", "gt_needs_birth": true, "seed": 1, "idx": 405}
+{"block": "trap_b", "query": "La consommation d'eau potable est-elle subordonnée à une autorisation administrative préalable au sens du Code de la santé publique ?", "gt_needs_birth": false, "seed": 1, "idx": 406}
+{"block": "noise", "query": "Why do we dream?", "gt_needs_birth": null, "seed": 1, "idx": 407}
+{"block": "true_need_code", "query": "Given a stream of integers, produce the running median. Constraints: O(log n) per insertion.", "gt_needs_birth": true, "seed": 1, "idx": 408}
+{"block": "true_need_legal", "query": "Différencier licenciement économique et licenciement personnel en droit social.", "gt_needs_birth": true, "seed": 1, "idx": 409}
+{"block": "trap_b", "query": "L'exécution mécanique de la station debout en zone non classée est-elle soumise à une obligation de sécurité ?", "gt_needs_birth": false, "seed": 1, "idx": 410}
+{"block": "noise", "query": "What's the largest planet in the solar system?", "gt_needs_birth": null, "seed": 1, "idx": 411}
+{"block": "noise", "query": "What's the largest planet in the solar system?", "gt_needs_birth": null, "seed": 1, "idx": 412}
+{"block": "true_need_code", "query": "Write a function that solves the longest increasing subsequence. Use patience sorting with binary search.", "gt_needs_birth": true, "seed": 1, "idx": 413}
+{"block": "noise", "query": "What causes earthquakes?", "gt_needs_birth": null, "seed": 1, "idx": 414}
+{"block": "trap_a", "query": "Articulate, with maximal verbosity, the procedural steps an organism endowed with photosensitive ocular apparatus undertakes to perceive ambient luminescence.", "gt_needs_birth": false, "seed": 1, "idx": 415}
+{"block": "noise", "query": "How does a battery store energy?", "gt_needs_birth": null, "seed": 1, "idx": 416}
+{"block": "noise", "query": "Why do leaves change color in fall?", "gt_needs_birth": null, "seed": 1, "idx": 417}
+{"block": "noise", "query": "Why do we dream?", "gt_needs_birth": null, "seed": 1, "idx": 418}
+{"block": "noise", "query": "How do birds know where to migrate?", "gt_needs_birth": null, "seed": 1, "idx": 419}

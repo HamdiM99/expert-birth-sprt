@@ -1,0 +1,59 @@
+{
+  "block_sizes": [
+    1,
+    3,
+    5,
+    8,
+    12
+  ],
+  "type_I_per_block": {
+    "1": 0.0,
+    "3": 0.0,
+    "5": 0.0016666666666666668,
+    "8": 0.0,
+    "12": 0.0
+  },
+  "type_II_per_block": {
+    "1": 0.0,
+    "3": 0.02625,
+    "5": 0.045,
+    "8": 0.05375,
+    "12": 0.07625
+  },
+  "n_resamples_per_proposal": 200,
+  "n_abandoned_proposals": 3,
+  "n_approved_proposals": 4,
+  "n_total_h0_trials_per_block": 600,
+  "n_total_h1_trials_per_block": 800,
+  "autocorr_observed": {
+    "rho_bar_mean": 0.6368084357362205,
+    "per_proposal": [
+      0.46920316892857666,
+      0.8803935235306016,
+      0.9091827605876923,
+      0.8965751349511842,
+      0.01827657839671802,
+      0.7745925473741513,
+      0.5094353363846188
+    ]
+  },
+  "alpha_nominal": 0.05,
+  "beta_nominal": 0.05,
+  "b_recommended_from_rho": 3,
+  "sprt_params": {
+    "mu0_p40": 0.9291600000000002,
+    "mu1_p60": 1.14484,
+    "sigma": 0.4740897327592636,
+    "n_min": 20,
+    "n_max": 50
+  },
+  "summary": {
+    "iid_shuffle_b1_type_I": 0.0,
+    "iid_shuffle_b1_type_II": 0.0,
+    "block_b5_type_I": 0.0016666666666666668,
+    "block_b5_type_II": 0.045,
+    "max_type_I_across_blocks": 0.0016666666666666668,
+    "max_type_II_across_blocks": 0.07625,
+    "verdict": "Wald bounds VIOLATED for at least one block size \u2014 see per-block table."
+  }
+}

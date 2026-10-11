@@ -1,0 +1,107 @@
+{
+  "n_proposals": 7,
+  "uq_scale": {
+    "mean": 1.0123935,
+    "std": 0.4740897327592636,
+    "mu0_p40": 0.9291600000000002,
+    "mu1_p60": 1.14484
+  },
+  "per_cluster": [
+    {
+      "proposal_id": 2,
+      "status": "APPROVED",
+      "n": 51,
+      "mean": 1.3000235294117648,
+      "std": 0.1045504871406638,
+      "lag1_autocorr": 0.46920316892857683,
+      "skew": 0.07279118019352275,
+      "excess_kurt": -0.06354025996081525
+    },
+    {
+      "proposal_id": 3,
+      "status": "APPROVED",
+      "n": 92,
+      "mean": 1.123588043478261,
+      "std": 0.0991431877930236,
+      "lag1_autocorr": 0.8803935235306019,
+      "skew": 1.4062668889223169,
+      "excess_kurt": 1.961096766048425
+    },
+    {
+      "proposal_id": 4,
+      "status": "APPROVED",
+      "n": 81,
+      "mean": 1.5095074074074073,
+      "std": 0.43131524241397384,
+      "lag1_autocorr": 0.9091827605876925,
+      "skew": -1.2943670943916377,
+      "excess_kurt": -0.07439666840335635
+    },
+    {
+      "proposal_id": 5,
+      "status": "ABANDONED",
+      "n": 89,
+      "mean": 0.41232921348314605,
+      "std": 0.17201284361059377,
+      "lag1_autocorr": 0.8965751349511842,
+      "skew": 0.3701225125255471,
+      "excess_kurt": -1.104779082710138
+    },
+    {
+      "proposal_id": 6,
+      "status": "ABANDONED",
+      "n": 20,
+      "mean": 0.47712999999999994,
+      "std": 0.042471192412532804,
+      "lag1_autocorr": 0.01827657839671802,
+      "skew": 1.170669920600631,
+      "excess_kurt": 1.711137586811354
+    },
+    {
+      "proposal_id": 7,
+      "status": "APPROVED",
+      "n": 42,
+      "mean": 1.0914880952380954,
+      "std": 0.3114457206476588,
+      "lag1_autocorr": 0.7745925473741516,
+      "skew": -0.32123659785718994,
+      "excess_kurt": -1.112549510743074
+    },
+    {
+      "proposal_id": 8,
+      "status": "PROPOSED",
+      "n": 25,
+      "mean": 0.837344,
+      "std": 0.3131204111683568,
+      "lag1_autocorr": 0.5094353363846188,
+      "skew": 0.49645202010526346,
+      "excess_kurt": -0.3782563868915383
+    }
+  ],
+  "lag1_autocorr": {
+    "mean": 0.6368084357362206,
+    "median": 0.7745925473741516,
+    "max": 0.9091827605876925,
+    "min": 0.01827657839671802
+  },
+  "skew": {
+    "mean": 0.2715284042997791
+  },
+  "excess_kurt": {
+    "mean": 0.13410177773583673
+  },
+  "bootstrap": {
+    "type_I_empirical": 0.0,
+    "n_resamples_H0": 600,
+    "type_II_empirical": 0.0,
+    "n_resamples_H1": 800,
+    "alpha_nominal": 0.05,
+    "beta_nominal": 0.05
+  },
+  "stopping_times": {
+    "mean": 21.714285714285715,
+    "median": 20.0,
+    "n_at_cap": 0,
+    "n_total": 7
+  }
+}

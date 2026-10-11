@@ -1,0 +1,23 @@
+{
+  "n_proposals": 7,
+  "n_positive": 5,
+  "n_negative": 2,
+  "mean_full": {
+    "auroc": 1.0,
+    "auprc": 0.7714285714282445,
+    "n_pos": 5,
+    "n_neg": 2
+  },
+  "max_full": {
+    "auroc": 1.0,
+    "auprc": 0.7714285714282445,
+    "n_pos": 5,
+    "n_neg": 2
+  },
+  "mean_first20": {
+    "auroc": 1.0,
+    "auprc": 0.7714285714282445,
+    "n_pos": 5,
+    "n_neg": 2
+  }
+}

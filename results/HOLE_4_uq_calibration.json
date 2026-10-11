@@ -1,0 +1,37 @@
+{
+  "n_proposals": 7,
+  "n_pos": 5,
+  "n_neg": 2,
+  "brier_uncalibrated_raw_minmax": 0.09773339109198584,
+  "brier_isotonic_LOO": 0.027767510433193452,
+  "improvement_absolute": 0.06996588065879239,
+  "raw_predictions": [
+    0.8090703224282512,
+    0.6482619079430516,
+    0.999999999088571,
+    0.0,
+    0.059061314576459585,
+    0.6190050849505189,
+    0.3873707921676231
+  ],
+  "isotonic_predictions": [
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    0.15246713425647893,
+    1.0,
+    0.586325797270399
+  ],
+  "labels": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+  ],
+  "figure": "figures/uq_calibration.png",
+  "honesty_caveat": "N=7 with 5 positives and 2 negatives \u2014 these Brier numbers are barely meaningful and serve only as a smoke test that an out-of-the-box isotonic post-hoc calibration could be a trivial drop-in if more labels were collected."
+}

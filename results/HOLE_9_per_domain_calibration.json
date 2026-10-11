@@ -1,0 +1,639 @@
+{
+  "experiment": "HOLE_9_per_domain_calibration",
+  "seed": 0,
+  "n_clusters": 6,
+  "domain_global_stats": {
+    "nl": {
+      "mu_pooled": 0.8058000399634756,
+      "sigma_pooled": 0.2565967290116038,
+      "n_pooled": 174
+    },
+    "code": {
+      "mu_pooled": 0.5123399916020307,
+      "sigma_pooled": 0.20959929494481988,
+      "n_pooled": 44
+    }
+  },
+  "per_cluster": [
+    {
+      "cluster_id": 0,
+      "size": 44,
+      "modal_block": "true_need_code",
+      "domain": "code",
+      "block_distribution": {
+        "true_need_code": 44
+      },
+      "mean_uq_raw": 0.5123399916020307,
+      "needs_birth_gt": true,
+      "mu_d_loo": 0.5123399916020307,
+      "sigma_d_loo": 0.20959929494481988,
+      "loo_note": "singleton-domain fallback to pooled (leakage-aware caveat)",
+      "n_loo": 0,
+      "raw_sprt": {
+        "decision": "SKIP",
+        "n_obs": 20,
+        "mean": 0.4676668592385492,
+        "reason": "SPRT-H0"
+      },
+      "z_sprt": {
+        "decision": "SKIP",
+        "n_obs": 20,
+        "mean_z": -0.21313589043914657,
+        "reason": "SPRT-H0",
+        "mu_d": 0.5123399916020307,
+        "sigma_d": 0.20959929494481988,
+        "mu0_z": -0.29742462453627316,
+        "mu1_z": 0.656777058502083,
+        "sigma_z": 0.9542016830383565,
+        "thr_z": 0.17967621698290492,
+        "loo_note": "singleton-domain fallback to pooled (leakage-aware caveat)",
+        "n_loo": 0
+      }
+    },
+    {
+      "cluster_id": 1,
+      "size": 30,
+      "modal_block": "true_need_med",
+      "domain": "nl",
+      "block_distribution": {
+        "true_need_med": 30
+      },
+      "mean_uq_raw": 0.5781387786070505,
+      "needs_birth_gt": false,
+      "mu_d_loo": 0.8532294694127308,
+      "sigma_d_loo": 0.25070384694200704,
+      "loo_note": "LOO over 144 obs from sibling clusters",
+      "n_loo": 144,
+      "raw_sprt": {
+        "decision": "BIRTH",
+        "n_obs": 20,
+        "mean": 0.588540047903219,
+        "reason": "SPRT-H1"
+      },
+      "z_sprt": {
+        "decision": "BIRTH",
+        "n_obs": 20,
+        "mean_z": -1.055785241184352,
+        "reason": "SPRT-H1",
+        "mu_d": 0.8532294694127308,
+        "sigma_d": 0.25070384694200704,
+        "mu0_z": -1.608389637140295,
+        "mu1_z": -0.8106356240306992,
+        "sigma_z": 0.7977540131095959,
+        "thr_z": -1.209512630585497,
+        "loo_note": "LOO over 144 obs from sibling clusters",
+        "n_loo": 144
+      }
+    },
+    {
+      "cluster_id": 2,
+      "size": 25,
+      "modal_block": "noise",
+      "domain": "nl",
+      "block_distribution": {
+        "noise": 25
+      },
+      "mean_uq_raw": 0.7835288000106811,
+      "needs_birth_gt": false,
+      "mu_d_loo": 0.8095368251904546,
+      "sigma_d_loo": 0.2702533613040743,
+      "loo_note": "LOO over 149 obs from sibling clusters",
+      "n_loo": 149,
+      "raw_sprt": {
+        "decision": "BIRTH",
+        "n_obs": 20,
+        "mean": 0.79256962507258,
+        "reason": "SPRT-H1"
+      },
+      "z_sprt": {
+        "decision": "BIRTH",
+        "n_obs": 20,
+        "mean_z": -0.06278256831293885,
+        "reason": "SPRT-H1",
+        "mu_d": 0.8095368251904546,
+        "sigma_d": 0.2702533613040743,
+        "mu0_z": -1.3303694853435082,
+        "mu1_z": -0.5903231856974109,
+        "sigma_z": 0.7400462996460975,
+        "thr_z": -0.9603463355204596,
+        "loo_note": "LOO over 149 obs from sibling clusters",
+        "n_loo": 149
+      }
+    },
+    {
+      "cluster_id": 3,
+      "size": 58,
+      "modal_block": "true_need_legal",
+      "domain": "nl",
+      "block_distribution": {
+        "true_need_legal": 50,
+        "trap_b": 8
+      },
+      "mean_uq_raw": 0.9045814966847157,
+      "needs_birth_gt": true,
+      "mu_d_loo": 0.7564093116028555,
+      "sigma_d_loo": 0.16181078303216656,
+      "loo_note": "LOO over 116 obs from sibling clusters",
+      "n_loo": 116,
+      "raw_sprt": {
+        "decision": "BIRTH",
+        "n_obs": 20,
+        "mean": 0.8731785332368835,
+        "reason": "SPRT-H1"
+      },
+      "z_sprt": {
+        "decision": "BIRTH",
+        "n_obs": 20,
+        "mean_z": 0.721640544875277,
+        "reason": "SPRT-H1",
+        "mu_d": 0.7564093116028555,
+        "sigma_d": 0.16181078303216656,
+        "mu0_z": -1.8936272716877216,
+        "mu1_z": -0.6576157015549592,
+        "sigma_z": 1.2360115701327627,
+        "thr_z": -1.2756214866213405,
+        "loo_note": "LOO over 116 obs from sibling clusters",
+        "n_loo": 116
+      }
+    },
+    {
+      "cluster_id": 4,
+      "size": 25,
+      "modal_block": "noise",
+      "domain": "nl",
+      "block_distribution": {
+        "noise": 25
+      },
+      "mean_uq_raw": 0.9027548265457154,
+      "needs_birth_gt": false,
+      "mu_d_loo": 0.7895324583221602,
+      "sigma_d_loo": 0.27372976377866015,
+      "loo_note": "LOO over 149 obs from sibling clusters",
+      "n_loo": 149,
+      "raw_sprt": {
+        "decision": "BIRTH",
+        "n_obs": 20,
+        "mean": 0.9014424771303311,
+        "reason": "SPRT-H1"
+      },
+      "z_sprt": {
+        "decision": "BIRTH",
+        "n_obs": 20,
+        "mean_z": 0.4088339436067396,
+        "reason": "SPRT-H1",
+        "mu_d": 0.7895324583221602,
+        "sigma_d": 0.27372976377866015,
+        "mu0_z": -1.240392910274487,
+        "mu1_z": -0.5097452918382203,
+        "sigma_z": 0.7306476184362671,
+        "thr_z": -0.8750691010563537,
+        "loo_note": "LOO over 149 obs from sibling clusters",
+        "n_loo": 149
+      }
+    },
+    {
+      "cluster_id": 6,
+      "size": 36,
+      "modal_block": "noise",
+      "domain": "nl",
+      "block_distribution": {
+        "noise": 36
+      },
+      "mean_uq_raw": 0.7845062812169393,
+      "needs_birth_gt": false,
+      "mu_d_loo": 0.8113549335495286,
+      "sigma_d_loo": 0.28351537059960286,
+      "loo_note": "LOO over 138 obs from sibling clusters",
+      "n_loo": 138,
+      "raw_sprt": {
+        "decision": "BIRTH",
+        "n_obs": 20,
+        "mean": 0.7643243332295089,
+        "reason": "SPRT-H1"
+      },
+      "z_sprt": {
+        "decision": "BIRTH",
+        "n_obs": 20,
+        "mean_z": -0.16588377632068127,
+        "reason": "SPRT-H1",
+        "mu_d": 0.8113549335495286,
+        "sigma_d": 0.28351537059960286,
+        "mu0_z": -1.2745514741768809,
+        "mu1_z": -0.5691223484930682,
+        "sigma_z": 0.7054291256838128,
+        "thr_z": -0.9218369113349746,
+        "loo_note": "LOO over 138 obs from sibling clusters",
+        "n_loo": 138
+      }
+    }
+  ],
+  "confusion_raw": {
+    "tp": 1,
+    "fp": 4,
+    "tn": 0,
+    "fn": 1,
+    "n_eval": 6,
+    "n_births": 5,
+    "avg_obs": 20.0,
+    "TNR": 0.0,
+    "TPR": 0.5
+  },
+  "confusion_zscored": {
+    "tp": 1,
+    "fp": 4,
+    "tn": 0,
+    "fn": 1,
+    "n_eval": 6,
+    "n_births": 5,
+    "avg_obs": 20.0,
+    "TNR": 0.0,
+    "TPR": 0.5
+  },
+  "code_cluster_verdict": [
+    {
+      "cluster_id": 0,
+      "modal_block": "true_need_code",
+      "needs_birth_gt": true,
+      "raw_decision": "SKIP",
+      "raw_mean": 0.4676668592385492,
+      "z_decision": "SKIP",
+      "z_mean": -0.21313589043914657,
+      "rescued_or_corrected": false
+    }
+  ],
+  "code_cluster_rescued": false,
+  "nl_clusters_preserved": true,
+  "z_threshold_sweep": [
+    {
+      "z_thr": -1.0,
+      "TNR": 0.25,
+      "TPR": 1.0,
+      "n_births": 5,
+      "tp": 2,
+      "fp": 3,
+      "tn": 1,
+      "fn": 0
+    },
+    {
+      "z_thr": -0.9,
+      "TNR": 0.25,
+      "TPR": 1.0,
+      "n_births": 5,
+      "tp": 2,
+      "fp": 3,
+      "tn": 1,
+      "fn": 0
+    },
+    {
+      "z_thr": -0.8,
+      "TNR": 0.25,
+      "TPR": 1.0,
+      "n_births": 5,
+      "tp": 2,
+      "fp": 3,
+      "tn": 1,
+      "fn": 0
+    },
+    {
+      "z_thr": -0.7,
+      "TNR": 0.25,
+      "TPR": 1.0,
+      "n_births": 5,
+      "tp": 2,
+      "fp": 3,
+      "tn": 1,
+      "fn": 0
+    },
+    {
+      "z_thr": -0.6,
+      "TNR": 0.25,
+      "TPR": 1.0,
+      "n_births": 5,
+      "tp": 2,
+      "fp": 3,
+      "tn": 1,
+      "fn": 0
+    },
+    {
+      "z_thr": -0.5,
+      "TNR": 0.25,
+      "TPR": 1.0,
+      "n_births": 5,
+      "tp": 2,
+      "fp": 3,
+      "tn": 1,
+      "fn": 0
+    },
+    {
+      "z_thr": -0.3999999999999999,
+      "TNR": 0.25,
+      "TPR": 1.0,
+      "n_births": 5,
+      "tp": 2,
+      "fp": 3,
+      "tn": 1,
+      "fn": 0
+    },
+    {
+      "z_thr": -0.29999999999999993,
+      "TNR": 0.25,
+      "TPR": 1.0,
+      "n_births": 5,
+      "tp": 2,
+      "fp": 3,
+      "tn": 1,
+      "fn": 0
+    },
+    {
+      "z_thr": -0.19999999999999996,
+      "TNR": 0.25,
+      "TPR": 1.0,
+      "n_births": 5,
+      "tp": 2,
+      "fp": 3,
+      "tn": 1,
+      "fn": 0
+    },
+    {
+      "z_thr": -0.09999999999999998,
+      "TNR": 0.5,
+      "TPR": 1.0,
+      "n_births": 4,
+      "tp": 2,
+      "fp": 2,
+      "tn": 2,
+      "fn": 0
+    },
+    {
+      "z_thr": 0.0,
+      "TNR": 0.75,
+      "TPR": 0.5,
+      "n_births": 2,
+      "tp": 1,
+      "fp": 1,
+      "tn": 3,
+      "fn": 1
+    },
+    {
+      "z_thr": 0.10000000000000009,
+      "TNR": 0.75,
+      "TPR": 0.5,
+      "n_births": 2,
+      "tp": 1,
+      "fp": 1,
+      "tn": 3,
+      "fn": 1
+    },
+    {
+      "z_thr": 0.20000000000000018,
+      "TNR": 0.75,
+      "TPR": 0.5,
+      "n_births": 2,
+      "tp": 1,
+      "fp": 1,
+      "tn": 3,
+      "fn": 1
+    },
+    {
+      "z_thr": 0.30000000000000004,
+      "TNR": 0.75,
+      "TPR": 0.5,
+      "n_births": 2,
+      "tp": 1,
+      "fp": 1,
+      "tn": 3,
+      "fn": 1
+    },
+    {
+      "z_thr": 0.40000000000000013,
+      "TNR": 0.75,
+      "TPR": 0.5,
+      "n_births": 2,
+      "tp": 1,
+      "fp": 1,
+      "tn": 3,
+      "fn": 1
+    },
+    {
+      "z_thr": 0.5,
+      "TNR": 1.0,
+      "TPR": 0.5,
+      "n_births": 1,
+      "tp": 1,
+      "fp": 0,
+      "tn": 4,
+      "fn": 1
+    },
+    {
+      "z_thr": 0.6000000000000001,
+      "TNR": 1.0,
+      "TPR": 0.5,
+      "n_births": 1,
+      "tp": 1,
+      "fp": 0,
+      "tn": 4,
+      "fn": 1
+    },
+    {
+      "z_thr": 0.7000000000000002,
+      "TNR": 1.0,
+      "TPR": 0.5,
+      "n_births": 1,
+      "tp": 1,
+      "fp": 0,
+      "tn": 4,
+      "fn": 1
+    },
+    {
+      "z_thr": 0.8,
+      "TNR": 1.0,
+      "TPR": 0.5,
+      "n_births": 1,
+      "tp": 1,
+      "fp": 0,
+      "tn": 4,
+      "fn": 1
+    },
+    {
+      "z_thr": 0.9000000000000001,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 1.0,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 1.1,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 1.2000000000000002,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 1.3000000000000003,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 1.4000000000000004,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 1.5,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 1.6,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 1.7000000000000002,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 1.8000000000000003,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 1.9000000000000004,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 2.0,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 2.1,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 2.2,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 2.3000000000000003,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 2.4000000000000004,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    },
+    {
+      "z_thr": 2.5,
+      "TNR": 1.0,
+      "TPR": 0.0,
+      "n_births": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 2
+    }
+  ],
+  "params": {
+    "uq_threshold_raw": 0.55,
+    "sprt_delta_raw": 0.1,
+    "alpha": 0.05,
+    "beta": 0.05,
+    "sigma_raw": 0.2,
+    "min_obs": 20,
+    "target_obs": 50,
+    "domain_coarsening": "{true_need_code, trap_b}->code; rest->nl"
+  },
+  "summary": "Per-domain z-scoring of token-entropy UQ was applied to the seed-0 controlled experiment (HDBSCAN clusters, 7 controlled blocks). Domain stats (LOO over sibling clusters): nl: mu=0.806, sigma=0.257 (n=174), code: mu=0.512, sigma=0.210 (n=44). Raw SPRT confusion: TP=1 FP=4 TN=0 FN=1 (TNR=0.0, TPR=0.5). Z-scored SPRT confusion: TP=1 FP=4 TN=0 FN=1 (TNR=0.0, TPR=0.5). Code-cluster rescue: False. Caveats: (a) only 1-2 clusters per domain in seed-0, so LOO over sibling clusters is fragile; (b) noise/trap blocks were folded into 'nl' which mixes heterogeneous distributions; (c) sigma in z-units was rescaled by sigma_d, but the *additional* observation-noise assumption sigma=0.20 was kept conceptually constant \u2014 a more principled fix would re-estimate it from data; (d) tau_Delta-based GT labelling was inherited from summary.json (counterfactual LoRA), not re-computed."
+}

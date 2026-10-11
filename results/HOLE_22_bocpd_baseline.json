@@ -1,0 +1,100 @@
+{
+  "experiment": "HOLE_22_bocpd_baseline",
+  "description": "BOCPD (Adams & MacKay 2007) with NIG conjugate prior, hazard 1/50, on the GPU-replayed token-entropy streams of the 7 deployment proposals.",
+  "params": {
+    "lambda": 50.0,
+    "min_obs": 20,
+    "max_obs": 50,
+    "mu1": 1.14484,
+    "prior": {
+      "mu0": 0.9291600000000002,
+      "kappa0": 1.0,
+      "alpha0": 1.0,
+      "beta0": 0.2253243856719298
+    }
+  },
+  "rows": [
+    {
+      "id": 2,
+      "n_obs": 51,
+      "decision": "BIRTH",
+      "n_decision": 50,
+      "post_cp_mean": 1.2986520000000001,
+      "oracle": false,
+      "proxy": true
+    },
+    {
+      "id": 3,
+      "n_obs": 92,
+      "decision": "BIRTH",
+      "n_decision": 50,
+      "post_cp_mean": 1.1736859999999998,
+      "oracle": false,
+      "proxy": true
+    },
+    {
+      "id": 4,
+      "n_obs": 81,
+      "decision": "BIRTH",
+      "n_decision": 50,
+      "post_cp_mean": 1.3684219999999998,
+      "oracle": true,
+      "proxy": true
+    },
+    {
+      "id": 5,
+      "n_obs": 89,
+      "decision": "SKIP",
+      "n_decision": 50,
+      "post_cp_mean": 0.30947399999999997,
+      "oracle": true,
+      "proxy": false
+    },
+    {
+      "id": 6,
+      "n_obs": 20,
+      "decision": "SKIP",
+      "n_decision": 20,
+      "post_cp_mean": 0.47712999999999994,
+      "oracle": true,
+      "proxy": false
+    },
+    {
+      "id": 7,
+      "n_obs": 42,
+      "decision": "BIRTH",
+      "n_decision": 42,
+      "post_cp_mean": 1.0914880952380954,
+      "oracle": false,
+      "proxy": true
+    },
+    {
+      "id": 8,
+      "n_obs": 25,
+      "decision": "SKIP",
+      "n_decision": 25,
+      "post_cp_mean": 0.837344,
+      "oracle": false,
+      "proxy": true
+    }
+  ],
+  "oracle": {
+    "TP": 1,
+    "FP": 3,
+    "FN": 2,
+    "TN": 1,
+    "P": 0.25,
+    "R": 0.3333333333333333,
+    "F1": 0.28571428571428575
+  },
+  "proxy": {
+    "TP": 4,
+    "FP": 0,
+    "FN": 1,
+    "TN": 2,
+    "P": 1.0,
+    "R": 0.8,
+    "F1": 0.888888888888889
+  },
+  "avg_n": 41.0
+}

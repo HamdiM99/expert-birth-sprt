@@ -1,0 +1,103 @@
+{
+  "n_observed_proposals": 7,
+  "default_u_min": 0.3,
+  "sweep": [
+    {
+      "u_min": 0.05,
+      "n_clusters": 7,
+      "mean_cluster_size": 57.142857142857146,
+      "median_cluster_size": 51.0,
+      "n_of_original_7_kept": 7,
+      "kept_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "u_min": 0.075,
+      "n_clusters": 7,
+      "mean_cluster_size": 57.142857142857146,
+      "median_cluster_size": 51.0,
+      "n_of_original_7_kept": 7,
+      "kept_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "u_min": 0.1,
+      "n_clusters": 7,
+      "mean_cluster_size": 57.142857142857146,
+      "median_cluster_size": 51.0,
+      "n_of_original_7_kept": 7,
+      "kept_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "u_min": 0.15,
+      "n_clusters": 7,
+      "mean_cluster_size": 57.142857142857146,
+      "median_cluster_size": 51.0,
+      "n_of_original_7_kept": 7,
+      "kept_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "u_min": 0.2,
+      "n_clusters": 7,
+      "mean_cluster_size": 57.142857142857146,
+      "median_cluster_size": 51.0,
+      "n_of_original_7_kept": 7,
+      "kept_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "u_min": 0.3,
+      "n_clusters": 7,
+      "mean_cluster_size": 57.142857142857146,
+      "median_cluster_size": 51.0,
+      "n_of_original_7_kept": 7,
+      "kept_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "note": "Filter applied is `mean_uq >= u_min` on deployment proposals that already received observations. The `mean_uq` field is the deployment-time mean across the proposal's UQ observations."
+}

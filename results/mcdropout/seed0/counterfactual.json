@@ -1,0 +1,347 @@
+[
+  {
+    "cluster_id": 3,
+    "dominant_block": "true_need_legal",
+    "n_test": 5,
+    "backbone_score": 0.22222222222222224,
+    "backbone_per_example": [
+      {
+        "rouge_l": 0.11016949152542374,
+        "factual": 1,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.3333333333333333,
+        "rationale": "heuristic overlap=0.20 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.11822660098522167,
+        "factual": 1,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.3333333333333333,
+        "rationale": "heuristic overlap=0.24 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.11214953271028037,
+        "factual": 0,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.2222222222222222,
+        "rationale": "heuristic overlap=0.10 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.08040201005025126,
+        "factual": 0,
+        "specific": 0,
+        "complete": 1,
+        "total": 0.1111111111111111,
+        "rationale": "heuristic overlap=0.10 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.07339449541284404,
+        "factual": 0,
+        "specific": 0,
+        "complete": 1,
+        "total": 0.1111111111111111,
+        "rationale": "heuristic overlap=0.00 len_ratio=0.63",
+        "judge": "heuristic"
+      }
+    ],
+    "lora_train_meta": {
+      "cluster_id": 3,
+      "adapter_path": "results_mcdropout/seed0/lora_adapters/cluster_3_adapter",
+      "n_examples": 50,
+      "final_loss": 1.1226148238548865,
+      "epochs": 1,
+      "lora_r": 8
+    },
+    "lora_score": 0.26666666666666666,
+    "lora_per_example": [
+      {
+        "rouge_l": 0.11111111111111112,
+        "factual": 1,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.3333333333333333,
+        "rationale": "heuristic overlap=0.20 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.15228426395939088,
+        "factual": 1,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.3333333333333333,
+        "rationale": "heuristic overlap=0.31 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.12844036697247707,
+        "factual": 0,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.2222222222222222,
+        "rationale": "heuristic overlap=0.17 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.16744186046511628,
+        "factual": 1,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.3333333333333333,
+        "rationale": "heuristic overlap=0.20 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.07207207207207207,
+        "factual": 0,
+        "specific": 0,
+        "complete": 1,
+        "total": 0.1111111111111111,
+        "rationale": "heuristic overlap=0.00 len_ratio=0.66",
+        "judge": "heuristic"
+      }
+    ],
+    "delta": 0.044444444444444425
+  },
+  {
+    "cluster_id": 4,
+    "dominant_block": "noise",
+    "error": "no gold for block noise"
+  },
+  {
+    "cluster_id": 6,
+    "dominant_block": "noise",
+    "error": "no gold for block noise"
+  },
+  {
+    "cluster_id": 2,
+    "dominant_block": "noise",
+    "error": "no gold for block noise"
+  },
+  {
+    "cluster_id": 0,
+    "dominant_block": "true_need_code",
+    "n_test": 5,
+    "backbone_score": 0.5111111111111111,
+    "backbone_per_example": [
+      {
+        "rouge_l": 0.09836065573770492,
+        "factual": 2,
+        "specific": 1,
+        "complete": 2,
+        "total": 0.5555555555555556,
+        "rationale": "heuristic overlap=0.60 len_ratio=0.87",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.308300395256917,
+        "factual": 1,
+        "specific": 1,
+        "complete": 2,
+        "total": 0.4444444444444444,
+        "rationale": "heuristic overlap=0.47 len_ratio=1.30",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.1802575107296137,
+        "factual": 2,
+        "specific": 1,
+        "complete": 2,
+        "total": 0.5555555555555556,
+        "rationale": "heuristic overlap=0.55 len_ratio=1.84",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.24124513618677043,
+        "factual": 1,
+        "specific": 1,
+        "complete": 2,
+        "total": 0.4444444444444444,
+        "rationale": "heuristic overlap=0.37 len_ratio=1.36",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.20338983050847456,
+        "factual": 2,
+        "specific": 1,
+        "complete": 2,
+        "total": 0.5555555555555556,
+        "rationale": "heuristic overlap=0.54 len_ratio=0.62",
+        "judge": "heuristic"
+      }
+    ],
+    "lora_train_meta": {
+      "cluster_id": 0,
+      "adapter_path": "results_mcdropout/seed0/lora_adapters/cluster_0_adapter",
+      "n_examples": 44,
+      "final_loss": 0.9363873655145819,
+      "epochs": 1,
+      "lora_r": 8
+    },
+    "lora_score": 0.5555555555555556,
+    "lora_per_example": [
+      {
+        "rouge_l": 0.1671469740634006,
+        "factual": 2,
+        "specific": 2,
+        "complete": 2,
+        "total": 0.6666666666666666,
+        "rationale": "heuristic overlap=0.73 len_ratio=0.77",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.2928870292887029,
+        "factual": 2,
+        "specific": 1,
+        "complete": 2,
+        "total": 0.5555555555555556,
+        "rationale": "heuristic overlap=0.53 len_ratio=1.17",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.17094017094017094,
+        "factual": 2,
+        "specific": 1,
+        "complete": 2,
+        "total": 0.5555555555555556,
+        "rationale": "heuristic overlap=0.55 len_ratio=1.85",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.22924901185770752,
+        "factual": 1,
+        "specific": 1,
+        "complete": 2,
+        "total": 0.4444444444444444,
+        "rationale": "heuristic overlap=0.42 len_ratio=1.32",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.28732394366197184,
+        "factual": 2,
+        "specific": 1,
+        "complete": 2,
+        "total": 0.5555555555555556,
+        "rationale": "heuristic overlap=0.54 len_ratio=0.63",
+        "judge": "heuristic"
+      }
+    ],
+    "delta": 0.04444444444444451
+  },
+  {
+    "cluster_id": 1,
+    "dominant_block": "true_need_med",
+    "n_test": 5,
+    "backbone_score": 0.3333333333333333,
+    "backbone_per_example": [
+      {
+        "rouge_l": 0.0594059405940594,
+        "factual": 1,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.3333333333333333,
+        "rationale": "heuristic overlap=0.24 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.062176165803108814,
+        "factual": 1,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.3333333333333333,
+        "rationale": "heuristic overlap=0.37 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.09090909090909091,
+        "factual": 1,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.3333333333333333,
+        "rationale": "heuristic overlap=0.20 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.0625,
+        "factual": 1,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.3333333333333333,
+        "rationale": "heuristic overlap=0.17 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.08968609865470852,
+        "factual": 1,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.3333333333333333,
+        "rationale": "heuristic overlap=0.19 len_ratio=2.00",
+        "judge": "heuristic"
+      }
+    ],
+    "lora_train_meta": {
+      "cluster_id": 1,
+      "adapter_path": "results_mcdropout/seed0/lora_adapters/cluster_1_adapter",
+      "n_examples": 30,
+      "final_loss": 1.06716188788414,
+      "epochs": 1,
+      "lora_r": 8
+    },
+    "lora_score": 0.3333333333333333,
+    "lora_per_example": [
+      {
+        "rouge_l": 0.0784313725490196,
+        "factual": 1,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.3333333333333333,
+        "rationale": "heuristic overlap=0.28 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.062176165803108814,
+        "factual": 1,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.3333333333333333,
+        "rationale": "heuristic overlap=0.37 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.09090909090909091,
+        "factual": 1,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.3333333333333333,
+        "rationale": "heuristic overlap=0.20 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.0900900900900901,
+        "factual": 1,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.3333333333333333,
+        "rationale": "heuristic overlap=0.17 len_ratio=2.00",
+        "judge": "heuristic"
+      },
+      {
+        "rouge_l": 0.10328638497652581,
+        "factual": 1,
+        "specific": 1,
+        "complete": 1,
+        "total": 0.3333333333333333,
+        "rationale": "heuristic overlap=0.29 len_ratio=2.00",
+        "judge": "heuristic"
+      }
+    ],
+    "delta": 0.0
+  }
+]

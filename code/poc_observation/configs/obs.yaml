@@ -1,0 +1,18 @@
+name: observation
+gate: observation
+
+cluster:
+  min_cluster_size: 15
+  min_uq: 0.30
+
+observation:
+  enabled: true
+  signal: token_entropy        # {token_entropy, ensemble_disagreement, mc_dropout}
+  target_obs: 50
+  min_obs: 20
+  uq_threshold: 0.55
+  sprt:
+    delta: 0.10
+    alpha: 0.05
+    beta: 0.05
+    sigma: 0.20

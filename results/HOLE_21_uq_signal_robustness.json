@@ -1,0 +1,692 @@
+{
+  "experiment": "HOLE_21_uq_signal_robustness",
+  "description": "GLR-SPRT and fixed-\u03c3 SPRT replayed on GPU with full multi-signal logging across 5 UQ statistics, run on the cluster_queries of the same 7 deployment proposals.",
+  "params": {
+    "alpha": 0.05,
+    "beta": 0.05,
+    "min_obs": 20,
+    "max_obs": 50,
+    "A": 2.9444389791664403,
+    "B": -2.9444389791664403
+  },
+  "per_signal": {
+    "token_entropy": {
+      "calibration": {
+        "mu0_p40": 0.11394912960628668,
+        "mu1_p60": 0.1433826101322969
+      },
+      "n_proposals_eligible": 7,
+      "fixed_sigma_sprt": {
+        "oracle": {
+          "TP": 1,
+          "FP": 2,
+          "FN": 2,
+          "TN": 2,
+          "P": 0.3333333333333333,
+          "R": 0.3333333333333333,
+          "F1": 0.3333333333333333
+        },
+        "proxy": {
+          "TP": 2,
+          "FP": 1,
+          "FN": 3,
+          "TN": 1,
+          "P": 0.6666666666666666,
+          "R": 0.4,
+          "F1": 0.5
+        },
+        "avg_n": 26.428571428571427
+      },
+      "glr_sprt": {
+        "oracle": {
+          "TP": 1,
+          "FP": 2,
+          "FN": 2,
+          "TN": 2,
+          "P": 0.3333333333333333,
+          "R": 0.3333333333333333,
+          "F1": 0.3333333333333333
+        },
+        "proxy": {
+          "TP": 2,
+          "FP": 1,
+          "FN": 3,
+          "TN": 1,
+          "P": 0.6666666666666666,
+          "R": 0.4,
+          "F1": 0.5
+        },
+        "avg_n": 23.142857142857142
+      },
+      "rows": [
+        {
+          "id": 2,
+          "n_obs": 30,
+          "mean": 0.16372079482922952,
+          "std": 0.03081523879013276,
+          "sprt": "BIRTH",
+          "n_sprt": 30,
+          "glr": "BIRTH",
+          "n_glr": 20,
+          "oracle": false,
+          "proxy": true
+        },
+        {
+          "id": 3,
+          "n_obs": 30,
+          "mean": 0.1219757721448938,
+          "std": 0.045037850083751434,
+          "sprt": "SKIP",
+          "n_sprt": 30,
+          "glr": "SKIP",
+          "n_glr": 27,
+          "oracle": false,
+          "proxy": true
+        },
+        {
+          "id": 4,
+          "n_obs": 30,
+          "mean": 0.12833266833590137,
+          "std": 0.051240694554535636,
+          "sprt": "SKIP",
+          "n_sprt": 30,
+          "glr": "SKIP",
+          "n_glr": 30,
+          "oracle": true,
+          "proxy": true
+        },
+        {
+          "id": 5,
+          "n_obs": 30,
+          "mean": 0.09613070136277493,
+          "std": 0.04363193987246143,
+          "sprt": "SKIP",
+          "n_sprt": 30,
+          "glr": "SKIP",
+          "n_glr": 20,
+          "oracle": true,
+          "proxy": false
+        },
+        {
+          "id": 6,
+          "n_obs": 20,
+          "mean": 0.12929965794707335,
+          "std": 0.04151307910726458,
+          "sprt": "BIRTH",
+          "n_sprt": 20,
+          "glr": "BIRTH",
+          "n_glr": 20,
+          "oracle": true,
+          "proxy": false
+        },
+        {
+          "id": 7,
+          "n_obs": 25,
+          "mean": 0.13612798588971298,
+          "std": 0.052859813169924545,
+          "sprt": "BIRTH",
+          "n_sprt": 25,
+          "glr": "BIRTH",
+          "n_glr": 25,
+          "oracle": false,
+          "proxy": true
+        },
+        {
+          "id": 8,
+          "n_obs": 20,
+          "mean": 0.12178487520044053,
+          "std": 0.030219219441535557,
+          "sprt": "SKIP",
+          "n_sprt": 20,
+          "glr": "SKIP",
+          "n_glr": 20,
+          "oracle": false,
+          "proxy": true
+        }
+      ]
+    },
+    "semantic_entropy": {
+      "calibration": {
+        "mu0_p40": 0.9502705362332347,
+        "mu1_p60": 1.054920164986144
+      },
+      "n_proposals_eligible": 7,
+      "fixed_sigma_sprt": {
+        "oracle": {
+          "TP": 2,
+          "FP": 2,
+          "FN": 1,
+          "TN": 2,
+          "P": 0.5,
+          "R": 0.6666666666666666,
+          "F1": 0.5714285714285715
+        },
+        "proxy": {
+          "TP": 2,
+          "FP": 2,
+          "FN": 3,
+          "TN": 0,
+          "P": 0.5,
+          "R": 0.4,
+          "F1": 0.4444444444444445
+        },
+        "avg_n": 21.428571428571427
+      },
+      "glr_sprt": {
+        "oracle": {
+          "TP": 2,
+          "FP": 2,
+          "FN": 1,
+          "TN": 2,
+          "P": 0.5,
+          "R": 0.6666666666666666,
+          "F1": 0.5714285714285715
+        },
+        "proxy": {
+          "TP": 2,
+          "FP": 2,
+          "FN": 3,
+          "TN": 0,
+          "P": 0.5,
+          "R": 0.4,
+          "F1": 0.4444444444444445
+        },
+        "avg_n": 22.571428571428573
+      },
+      "rows": [
+        {
+          "id": 2,
+          "n_obs": 30,
+          "mean": 1.2245831281005832,
+          "std": 0.266353214087748,
+          "sprt": "BIRTH",
+          "n_sprt": 20,
+          "glr": "BIRTH",
+          "n_glr": 20,
+          "oracle": false,
+          "proxy": true
+        },
+        {
+          "id": 3,
+          "n_obs": 30,
+          "mean": 0.87623472163665,
+          "std": 0.3356469670825625,
+          "sprt": "SKIP",
+          "n_sprt": 20,
+          "glr": "SKIP",
+          "n_glr": 23,
+          "oracle": false,
+          "proxy": true
+        },
+        {
+          "id": 4,
+          "n_obs": 30,
+          "mean": 0.5138909694282029,
+          "std": 0.32667794014442614,
+          "sprt": "SKIP",
+          "n_sprt": 20,
+          "glr": "SKIP",
+          "n_glr": 20,
+          "oracle": true,
+          "proxy": true
+        },
+        {
+          "id": 5,
+          "n_obs": 30,
+          "mean": 1.0073066719692778,
+          "std": 0.29780275828996755,
+          "sprt": "BIRTH",
+          "n_sprt": 30,
+          "glr": "BIRTH",
+          "n_glr": 30,
+          "oracle": true,
+          "proxy": false
+        },
+        {
+          "id": 6,
+          "n_obs": 20,
+          "mean": 1.0696543735910935,
+          "std": 0.43885729281385005,
+          "sprt": "BIRTH",
+          "n_sprt": 20,
+          "glr": "BIRTH",
+          "n_glr": 20,
+          "oracle": true,
+          "proxy": false
+        },
+        {
+          "id": 7,
+          "n_obs": 25,
+          "mean": 1.1143411076470024,
+          "std": 0.3169269242189549,
+          "sprt": "BIRTH",
+          "n_sprt": 20,
+          "glr": "BIRTH",
+          "n_glr": 25,
+          "oracle": false,
+          "proxy": true
+        },
+        {
+          "id": 8,
+          "n_obs": 20,
+          "mean": 0.879842409613968,
+          "std": 0.4201372489790129,
+          "sprt": "SKIP",
+          "n_sprt": 20,
+          "glr": "SKIP",
+          "n_glr": 20,
+          "oracle": false,
+          "proxy": true
+        }
+      ]
+    },
+    "expert_disagreement": {
+      "calibration": {
+        "mu0_p40": 0.14833370447158814,
+        "mu1_p60": 0.21139655113220215
+      },
+      "n_proposals_eligible": 7,
+      "fixed_sigma_sprt": {
+        "oracle": {
+          "TP": 1,
+          "FP": 3,
+          "FN": 2,
+          "TN": 1,
+          "P": 0.25,
+          "R": 0.3333333333333333,
+          "F1": 0.28571428571428575
+        },
+        "proxy": {
+          "TP": 3,
+          "FP": 1,
+          "FN": 2,
+          "TN": 1,
+          "P": 0.75,
+          "R": 0.6,
+          "F1": 0.6666666666666665
+        },
+        "avg_n": 24.428571428571427
+      },
+      "glr_sprt": {
+        "oracle": {
+          "TP": 1,
+          "FP": 3,
+          "FN": 2,
+          "TN": 1,
+          "P": 0.25,
+          "R": 0.3333333333333333,
+          "F1": 0.28571428571428575
+        },
+        "proxy": {
+          "TP": 3,
+          "FP": 1,
+          "FN": 2,
+          "TN": 1,
+          "P": 0.75,
+          "R": 0.6,
+          "F1": 0.6666666666666665
+        },
+        "avg_n": 20.0
+      },
+      "rows": [
+        {
+          "id": 2,
+          "n_obs": 30,
+          "mean": 0.283488588862949,
+          "std": 0.08044756431050835,
+          "sprt": "BIRTH",
+          "n_sprt": 20,
+          "glr": "BIRTH",
+          "n_glr": 20,
+          "oracle": false,
+          "proxy": true
+        },
+        {
+          "id": 3,
+          "n_obs": 30,
+          "mean": 0.1413416021400028,
+          "std": 0.05711160990419377,
+          "sprt": "SKIP",
+          "n_sprt": 30,
+          "glr": "SKIP",
+          "n_glr": 20,
+          "oracle": false,
+          "proxy": true
+        },
+        {
+          "id": 4,
+          "n_obs": 30,
+          "mean": 0.1051592641406589,
+          "std": 0.04146339727182767,
+          "sprt": "SKIP",
+          "n_sprt": 26,
+          "glr": "SKIP",
+          "n_glr": 20,
+          "oracle": true,
+          "proxy": true
+        },
+        {
+          "id": 5,
+          "n_obs": 30,
+          "mean": 0.2045358786980311,
+          "std": 0.09052014198514824,
+          "sprt": "BIRTH",
+          "n_sprt": 30,
+          "glr": "BIRTH",
+          "n_glr": 20,
+          "oracle": true,
+          "proxy": false
+        },
+        {
+          "id": 6,
+          "n_obs": 20,
+          "mean": 0.1688732922077179,
+          "std": 0.10379308899940441,
+          "sprt": "SKIP",
+          "n_sprt": 20,
+          "glr": "SKIP",
+          "n_glr": 20,
+          "oracle": true,
+          "proxy": false
+        },
+        {
+          "id": 7,
+          "n_obs": 25,
+          "mean": 0.24251018087069195,
+          "std": 0.11464184694932862,
+          "sprt": "BIRTH",
+          "n_sprt": 25,
+          "glr": "BIRTH",
+          "n_glr": 20,
+          "oracle": false,
+          "proxy": true
+        },
+        {
+          "id": 8,
+          "n_obs": 20,
+          "mean": 0.19460106988747916,
+          "std": 0.0623803409492834,
+          "sprt": "BIRTH",
+          "n_sprt": 20,
+          "glr": "BIRTH",
+          "n_glr": 20,
+          "oracle": false,
+          "proxy": true
+        }
+      ]
+    },
+    "backbone_agreement": {
+      "calibration": {
+        "mu0_p40": -0.8714636087417602,
+        "mu1_p60": -0.828913164138794
+      },
+      "n_proposals_eligible": 7,
+      "fixed_sigma_sprt": {
+        "oracle": {
+          "TP": 1,
+          "FP": 2,
+          "FN": 2,
+          "TN": 2,
+          "P": 0.3333333333333333,
+          "R": 0.3333333333333333,
+          "F1": 0.3333333333333333
+        },
+        "proxy": {
+          "TP": 2,
+          "FP": 1,
+          "FN": 3,
+          "TN": 1,
+          "P": 0.6666666666666666,
+          "R": 0.4,
+          "F1": 0.5
+        },
+        "avg_n": 24.285714285714285
+      },
+      "glr_sprt": {
+        "oracle": {
+          "TP": 1,
+          "FP": 2,
+          "FN": 2,
+          "TN": 2,
+          "P": 0.3333333333333333,
+          "R": 0.3333333333333333,
+          "F1": 0.3333333333333333
+        },
+        "proxy": {
+          "TP": 2,
+          "FP": 1,
+          "FN": 3,
+          "TN": 1,
+          "P": 0.6666666666666666,
+          "R": 0.4,
+          "F1": 0.5
+        },
+        "avg_n": 21.285714285714285
+      },
+      "rows": [
+        {
+          "id": 2,
+          "n_obs": 30,
+          "mean": -0.7329866111278533,
+          "std": 0.12930831774331458,
+          "sprt": "BIRTH",
+          "n_sprt": 25,
+          "glr": "BIRTH",
+          "n_glr": 21,
+          "oracle": false,
+          "proxy": true
+        },
+        {
+          "id": 3,
+          "n_obs": 30,
+          "mean": -0.9064718306064605,
+          "std": 0.06715562438342391,
+          "sprt": "SKIP",
+          "n_sprt": 30,
+          "glr": "SKIP",
+          "n_glr": 20,
+          "oracle": false,
+          "proxy": true
+        },
+        {
+          "id": 4,
+          "n_obs": 30,
+          "mean": -0.8833942770957947,
+          "std": 0.04403037498010801,
+          "sprt": "SKIP",
+          "n_sprt": 30,
+          "glr": "SKIP",
+          "n_glr": 20,
+          "oracle": true,
+          "proxy": true
+        },
+        {
+          "id": 5,
+          "n_obs": 30,
+          "mean": -0.6676559795935949,
+          "std": 0.13922590156384063,
+          "sprt": "BIRTH",
+          "n_sprt": 20,
+          "glr": "BIRTH",
+          "n_glr": 23,
+          "oracle": true,
+          "proxy": false
+        },
+        {
+          "id": 6,
+          "n_obs": 20,
+          "mean": -0.8843268394470215,
+          "std": 0.021426368473129995,
+          "sprt": "SKIP",
+          "n_sprt": 20,
+          "glr": "SKIP",
+          "n_glr": 20,
+          "oracle": true,
+          "proxy": false
+        },
+        {
+          "id": 7,
+          "n_obs": 25,
+          "mean": -0.8691012406349182,
+          "std": 0.121355712918544,
+          "sprt": "SKIP",
+          "n_sprt": 25,
+          "glr": "SKIP",
+          "n_glr": 25,
+          "oracle": false,
+          "proxy": true
+        },
+        {
+          "id": 8,
+          "n_obs": 20,
+          "mean": -0.8328822463750839,
+          "std": 0.02578615760211624,
+          "sprt": "BIRTH",
+          "n_sprt": 20,
+          "glr": "BIRTH",
+          "n_glr": 20,
+          "oracle": false,
+          "proxy": true
+        }
+      ]
+    },
+    "implicit_feedback": {
+      "skipped": "degenerate calibration (constant signal)"
+    },
+    "composite_uq": {
+      "calibration": {
+        "mu0_p40": 0.3803095911510532,
+        "mu1_p60": 0.4466513491403134
+      },
+      "n_proposals_eligible": 7,
+      "fixed_sigma_sprt": {
+        "oracle": {
+          "TP": 2,
+          "FP": 2,
+          "FN": 1,
+          "TN": 2,
+          "P": 0.5,
+          "R": 0.6666666666666666,
+          "F1": 0.5714285714285715
+        },
+        "proxy": {
+          "TP": 2,
+          "FP": 2,
+          "FN": 3,
+          "TN": 0,
+          "P": 0.5,
+          "R": 0.4,
+          "F1": 0.4444444444444445
+        },
+        "avg_n": 22.571428571428573
+      },
+      "glr_sprt": {
+        "oracle": {
+          "TP": 2,
+          "FP": 2,
+          "FN": 1,
+          "TN": 2,
+          "P": 0.5,
+          "R": 0.6666666666666666,
+          "F1": 0.5714285714285715
+        },
+        "proxy": {
+          "TP": 2,
+          "FP": 2,
+          "FN": 3,
+          "TN": 0,
+          "P": 0.5,
+          "R": 0.4,
+          "F1": 0.4444444444444445
+        },
+        "avg_n": 21.142857142857142
+      },
+      "rows": [
+        {
+          "id": 2,
+          "n_obs": 30,
+          "mean": 0.5252176823857276,
+          "std": 0.09146859658107288,
+          "sprt": "BIRTH",
+          "n_sprt": 20,
+          "glr": "BIRTH",
+          "n_glr": 20,
+          "oracle": false,
+          "proxy": true
+        },
+        {
+          "id": 3,
+          "n_obs": 30,
+          "mean": 0.34369727697100555,
+          "std": 0.10472226672802984,
+          "sprt": "SKIP",
+          "n_sprt": 23,
+          "glr": "SKIP",
+          "n_glr": 20,
+          "oracle": false,
+          "proxy": true
+        },
+        {
+          "id": 4,
+          "n_obs": 30,
+          "mean": 0.2288724621734696,
+          "std": 0.1030208975122217,
+          "sprt": "SKIP",
+          "n_sprt": 20,
+          "glr": "SKIP",
+          "n_glr": 20,
+          "oracle": true,
+          "proxy": true
+        },
+        {
+          "id": 5,
+          "n_obs": 30,
+          "mean": 0.4326305085337086,
+          "std": 0.09606325645997559,
+          "sprt": "BIRTH",
+          "n_sprt": 30,
+          "glr": "BIRTH",
+          "n_glr": 28,
+          "oracle": true,
+          "proxy": false
+        },
+        {
+          "id": 6,
+          "n_obs": 20,
+          "mean": 0.414769205412005,
+          "std": 0.13656675896470624,
+          "sprt": "BIRTH",
+          "n_sprt": 20,
+          "glr": "BIRTH",
+          "n_glr": 20,
+          "oracle": true,
+          "proxy": false
+        },
+        {
+          "id": 7,
+          "n_obs": 25,
+          "mean": 0.45391579763801315,
+          "std": 0.09668967837250236,
+          "sprt": "BIRTH",
+          "n_sprt": 25,
+          "glr": "BIRTH",
+          "n_glr": 20,
+          "oracle": false,
+          "proxy": true
+        },
+        {
+          "id": 8,
+          "n_obs": 20,
+          "mean": 0.3717576819342596,
+          "std": 0.13049452034815373,
+          "sprt": "SKIP",
+          "n_sprt": 20,
+          "glr": "SKIP",
+          "n_glr": 20,
+          "oracle": false,
+          "proxy": true
+        }
+      ]
+    }
+  }
+}
